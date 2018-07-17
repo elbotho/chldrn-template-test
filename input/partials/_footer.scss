@@ -1,0 +1,58 @@
+/* ============================================================= */
+/* ============================================================= */
+/* FOOTER */
+/* ============================================================= */
+/* ============================================================= */
+
+.Footer .Footer-inner {
+    padding-top: 1rem;
+}
+
+/* social icons */
+
+.social-icons-style-solid .sqs-svg-icon--wrapper{
+    background-color:#ee7203 !important;
+}
+.social-icons-style-solid .sqs-use--icon{
+    fill:#fff;
+}
+.social-icons-color-black.social-icons-style-solid .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper{
+    background-color:rgba(34,34,34,.4);
+    transition: transform .2s; /* Animation */    
+}
+.social-icons-color-black.social-icons-style-solid .sqs-svg-icon--list:hover .sqs-use--icon{
+    fill:#fff;
+}
+.social-icons-color-black.social-icons-style-solid .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover{
+    background-color:#222;
+    transform: scale(1.15);
+}
+.social-icons-color-black.social-icons-style-solid .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--icon{
+    fill: rgba(255,255,255,0.7);
+}
+
+/* footer nav */
+
+.tweak-footer-layout-columns .Footer--mid .Footer-nav-group{
+	width: auto;
+	padding-left: 0;
+}
+
+.tweak-footer-layout-columns .Footer-nav-item {
+	display: inline-block;
+	padding-right: 2rem;
+}
+
+/* footer shape */
+
+footer.Footer::before {
+	content: " ";
+	display: block;
+	height: 4rem;
+	margin-top:-4rem;
+	width: 100%;
+	position: absolute;
+	background: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23f6f4eb"/></svg>') ;
+	background-size: cover;
+}
+

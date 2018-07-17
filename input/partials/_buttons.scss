@@ -1,0 +1,27 @@
+/* ============================================================= */
+/* ============================================================= */
+/* Buttons */
+/* ============================================================= */
+/* ============================================================= */
+
+.sqs-block-button a.sqs-block-button-element {
+	font-family: 'Overpass', sans-serif !important;
+	font-size: 1rem;
+}
+.sqs-block-button .sqs-block-button-element--medium {
+	padding: .3rem 1.5rem;	
+}
+
+.sqs-block-button .sqs-block-button-element--medium{
+	color: #fff;
+}
+
+body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-container .sqs-editable-button, body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-container .sqs-editable-button-color {
+	background-color: #fff;
+	color: #ee7203;
+	opacity: 1;
+	font-size: 1rem;
+	font-family: Overpass, sans-serif;
+	text-transform: uppercase;
+	padding: .3rem 1.5rem;	
+}

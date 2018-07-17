@@ -1,0 +1,150 @@
+@import 'partials/typo';
+@import 'partials/structure';
+
+@import 'partials/buttons';
+@import 'partials/footer';
+@import 'partials/header';
+@import 'partials/newsletter';
+@import 'partials/searchbar';
+
+
+
+/* REST -> Sort later! */
+/* ============================================================= */
+/* ============================================================= */
+/* index-vision */
+/* ============================================================= */
+/* ============================================================= */
+
+.Index-page.Index-page--has-image:nth-child(2) {
+	color: #fff;
+	text-align: center;
+	padding: 2rem 0 2rem 0;
+	min-height: auto;
+	overflow: visible;
+	background-color: #ee7203;
+}
+.Index-page.Index-page--has-image:nth-child(2) figure.Index-page-image{
+	display: none;
+}
+
+.Index-page.Index-page--has-image:nth-child(2) .Index-page-content {
+	margin-top: 1rem;
+}
+
+.Index-page.Index-page--has-image:nth-child(2)::before {
+	content: " ";
+	width: 100%;
+	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23ee7203"/></svg>');
+	background-size: cover;
+	position: absolute;
+	display: block;
+	margin-top: -6rem;
+	height: 4rem;
+	z-index: 999;
+}
+
+
+/* ============================================================= */
+/* ============================================================= */
+/* Index Styles */
+/* ============================================================= */
+/* ============================================================= */
+
+.Site-inner main section:last-of-type {
+	padding-bottom: 4rem;
+}
+
+/* ============================================================= */
+/* ============================================================= */
+/* Index Gallery */
+/* ============================================================= */
+/* ============================================================= */
+
+.Index-gallery-item-image, .tweak-index-gallery-layout-slideshow .Index-gallery-wrapper,
+figure,
+.Intro--has-image
+{
+	background-color: transparent !important;
+}
+
+.Index-gallery figure.Index-gallery-item-image::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: gray;
+    z-index: 998;
+    height: 14rem;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,rgba(0,0,0,0.70) 100%);
+}
+
+/*
+.Index-gallery-indicators{
+	bottom: 3rem;
+}
+*/
+
+
+
+/* ============================================================= */
+/* ============================================================= */
+/* Aktuelles (index section) */
+/* ============================================================= */
+/* ============================================================= */
+
+.Index-page .Index-page-content {
+	margin-top: 4.5rem;
+	padding-top: 0;
+}
+
+#index-aktuelles h1 {
+	margin-bottom: -2rem;
+}
+
+#index-aktuelles .summary-title {
+	color:#fff;
+	position: absolute;
+	top: 0;
+	width: auto;
+	/*padding-left:0.5rem;*/
+	text-transform: uppercase;
+	font-size: 1rem;
+	width: 48.5%;
+	padding: .5rem .5rem .8rem .5rem;
+	background: linear-gradient(to top, rgba(0,0,0,0) 7%,rgba(0,0,0,0.30) 100%);
+	text-shadow: rgba(0,0,0,0.4) 0px 0px 7px;
+}
+
+.summary-read-more-link{
+	color: #ee7203;
+	font-weight: bold;
+}
+
+
+.sqs-gallery-design-carousel .sqs-gallery-controls .next:before,.sqs-gallery-design-carousel .sqs-gallery-controls .previous:before {
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+	color: #ee7203;
+}
+.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-carousel-pager {
+	width: 60px;
+}
+.sqs-block-summary-v2 .summary-excerpt p, .sqs-block-summary-v2 .summary-read-more-link {
+	font-size: 1rem;
+}
+
+
+
+/* =================================================== */
+/* =================================================== */
+/* AKTUELLES */
+/* =================================================== */
+/* =================================================== */
+
+.tweak-site-width-option-full-background .Main-content{
+    padding-top: 2rem;
+}

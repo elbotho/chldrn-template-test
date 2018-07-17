@@ -1,0 +1,159 @@
+/* =================================================== */
+/* =================================================== */
+/* TYPO GLOBAL*/
+/* =================================================== */
+/* =================================================== */
+
+html {
+	font-size: 18px;
+}
+
+body, p {
+	font-family: 'Gentium Basic', serif;
+	letter-spacing: 0;
+}
+
+/* headlines etc.*/
+h1, h2, h3,
+.Header .Header-inner .Header-nav--secondary,
+.Footer h3,
+.Footer .Footer-nav .Footer-nav-item,
+#index-aktuelles .summary-title
+ {
+	font-family: 'Overpass', sans-serif;
+	font-weight: bold;
+	color: #ee7203;
+	text-transform: uppercase;
+	line-height: 1.25;
+}
+
+.Header .Header-inner .Header-nav--secondary{
+	text-transform: none;
+}
+
+.Footer-nav .Footer-nav-item, .Footer h3 {
+	font-size: 1rem;
+}
+
+h1 {
+	color: #ee7203;
+	font-size: 1.9rem;
+	font-weight: bold;
+}
+h2 em {
+	font-size: 1.9rem;
+}
+
+h2, h3 em {
+	font-size: 1.4rem;
+}
+
+h3 {
+	font-size: 1.05rem;
+}
+
+h2 {
+	margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1+h2, h1+h1, h2+h3 {
+    margin-top: .2em;
+}
+h3 {
+	margin-top:1.8em;
+	margin-bottom: 0;
+}
+h3+p{
+	margin-top:.75em;
+}
+
+h1 em, h2 em, h3 em {
+	font-style: normal;
+	font-family: "Gentium Basic", serif;
+	text-transform: none;
+	font-weight: normal;
+	color: #222;
+	letter-spacing: 0;
+}
+
+h3, h4 {
+	letter-spacing: 0.025em;
+}
+
+.Index-page.Index-page--has-image h1 em, .Index-page.Index-page--has-image h2 em, .Index-page.Index-page--has-image h3 em {
+	color: #fff;
+}
+
+h1, h2 strong, h3 strong{
+	font-weight: bold;
+}
+
+h1 strong::after, h2 strong::after, h3 strong::after{
+	content: ' ';
+	display: block;
+	margin: 0.5em auto 1em 0;
+	width: 4em;
+	height: .25em;
+	background-color: #ee7203;
+}
+
+h1.text-align-center strong::after, h2.text-align-center strong::after, h3.text-align-center strong::after{
+	margin-left: auto;
+	margin-right: auto;
+}
+h1.text-align-left strong::after, h2.text-align-left strong::after, h3.text-align-left strong::after{
+	margin-left: 0;
+	margin-right: auto;
+}
+h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-align-right strong::after{
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.Index-page--has-image h1{
+	color: #fff;
+}
+
+.Index-page--has-image h1 strong::after{
+	background-color: #fff;
+}
+
+.Index-gallery-item-content-heading {
+	font-family: "Overpass", sans-serif;
+	font-size: 1.9rem;
+	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+	margin-bottom: 2rem;
+}
+
+.Intro.Intro--has-image h1, .Intro.Intro--has-image h2 {
+	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+} 
+
+.Index-gallery-item-content-body p {
+	font-size: 1.9rem;
+	font-family: 'Gentium Basic', serif;
+	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+	margin-bottom: 5rem;
+}
+
+
+/* ============================================================= */
+/* ============================================================= */
+/* LINKS */
+/* ============================================================= */
+/* ============================================================= */
+
+.Footer-blocks .sqs-block-html p a, .Footer-blocks .sqs-block-markdown p a, .Footer-blocks .sqs-block-image p a, .Footer-blocks .sqs-block-html blockquote a, .Footer-blocks .sqs-block-markdown blockquote a, .Footer-blocks .sqs-block-image blockquote a, .Footer-blocks .sqs-block-html ol a, .Footer-blocks .sqs-block-markdown ol a, .Footer-blocks .sqs-block-image ol a, .Footer-blocks .sqs-block-html ul a, .Footer-blocks .sqs-block-markdown ul a, .Footer-blocks .sqs-block-image ul a {
+	padding-bottom: 0;
+    border-bottom-color: rgba(0,0,0,.5);
+}
+
+.Footer-blocks .sqs-block-html p a:hover, .Footer-blocks .sqs-block-markdown p a:hover, .Footer-blocks .sqs-block-image p a:hover, .Footer-blocks .sqs-block-html blockquote a:hover, .Footer-blocks .sqs-block-markdown blockquote a:hover, .Footer-blocks .sqs-block-image blockquote a:hover, .Footer-blocks .sqs-block-html ol a:hover, .Footer-blocks .sqs-block-markdown ol a:hover, .Footer-blocks .sqs-block-image ol a:hover, .Footer-blocks .sqs-block-html ul a:hover, .Footer-blocks .sqs-block-markdown ul a:hover, .Footer-blocks .sqs-block-image ul a:hover {
+	color: #ee7203;
+	border-bottom-color: #ee7203;
+}
+
+nav.Footer-nav{
+	margin-top:-5.9rem;
+}

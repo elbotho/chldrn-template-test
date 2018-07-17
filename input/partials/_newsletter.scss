@@ -1,0 +1,48 @@
+/* =================================================== */
+/* =================================================== */
+/* NEWSLETTER */
+/* =================================================== */
+/* =================================================== */
+
+#index-newsletter {
+	min-height: auto;
+	padding-bottom: 4rem;
+	background: #f69e64 url('https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg') no-repeat 23% 0;
+	background-size: 9rem;
+}
+
+#index-newsletter figure {
+	display: none;
+}
+
+#index-newsletter h1{
+	margin-top: 11rem;
+}
+
+.form-item .title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+}
+.form-wrapper .field-list .field .option, .form-wrapper .field-list .field .caption, .form-wrapper .field-list .description{
+	opacity: 1;
+	font-size: 1rem;
+	font-family: 'Gentium Basic', serif;
+}
+
+body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-container .sqs-editable-button, body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-container .sqs-editable-button-color {
+	margin-top:1rem;
+}
+
+.form-wrapper .field-list .field .field-element {
+	border: 0;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 4px;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+.form-wrapper .field-list .field .field-element:focus {
+	background-color: rgba(255,255,255,0.4);
+}
