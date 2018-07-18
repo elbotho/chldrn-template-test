@@ -19,21 +19,6 @@
 	margin-top: 11rem;
 }
 
-.form-item .title {
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 1rem;
-}
-.form-wrapper .field-list .field .option, .form-wrapper .field-list .field .caption, .form-wrapper .field-list .description{
-	opacity: 1;
-	font-size: 1rem;
-	font-family: 'Gentium Basic', serif;
-}
-
-body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-container .sqs-editable-button, body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-container .sqs-editable-button-color {
-	margin-top:1rem;
-}
-
 .form-wrapper .field-list .field .field-element {
 	border: 0;
 	background-color: rgba(255,255,255,0.2);
@@ -46,3 +31,43 @@ body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-
 .form-wrapper .field-list .field .field-element:focus {
 	background-color: rgba(255,255,255,0.4);
 }
+
+
+.form-wrapper
+	{
+		.title {
+			color: #fff;
+		}
+		.button.sqs-system-button.sqs-editable-button{
+			margin-top: 1rem;
+		}
+	}
+
+/* =================================================== */
+/* =================================================== */
+/* POPUP FORM */
+/* =================================================== */
+/* =================================================== */
+.yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content{
+	background: #f69e64 url('https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg') no-repeat 83% 0;
+	background-size: 17%;
+	color: #fff;
+
+	.form-inner-wrapper{
+		color: #fff;
+	}
+
+	.form-wrapper .form-title {
+		color: #fff;
+	}
+
+	.lightbox-close {
+		color: #fff;
+		font-size: 2rem;
+		top: 1.5rem;
+		right: 1.5rem;
+	}
+}
+
+
+

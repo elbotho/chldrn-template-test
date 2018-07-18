@@ -5,7 +5,8 @@
 /* ============================================================= */
 
 .Footer .Footer-inner {
-    padding-top: 1rem;
+    padding-top: 1.8rem;
+    padding-bottom: 2.5rem;
 }
 
 /* social icons */
@@ -55,13 +56,8 @@ footer.Footer::before {
 	background: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23f6f4eb"/></svg>') ;
 	background-size: cover;
 }
-	
-	nav.Footer-nav{
-		margin-top:0;
-	}
-	
+
 @media screen and (min-width: 820px) {
-	
 	nav.Footer-nav{
 		margin-top:-5.9rem;
 	}

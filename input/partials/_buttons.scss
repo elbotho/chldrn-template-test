@@ -20,7 +20,10 @@ body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-
 .Header-nav--primary .Header-nav-inner .Header-nav-item:last-child,
 .Mobile .Mobile-overlay-menu-main .Mobile-overlay-nav.Mobile-overlay-nav--primary .Mobile-overlay-nav-item,
 .Mobile-overlay-folder a.Mobile-overlay-folder-item,
- {
+.yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content input.button.sqs-system-button,
+a.sqs-block-button-element--medium.sqs-block-button-element,
+body:not(.button-style-default) .sqs-editable-button, body:not(.button-style-default) .sqs-editable-button-font
+{
 	background-color: #fff;
 	color: #ee7203;
 	opacity: 1;
@@ -28,8 +31,23 @@ body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-
 	font-weight: bold;
 	font-family: Overpass, sans-serif;
 	text-transform: uppercase;
-	padding: .3em 1.5em;	
+	padding: .4em 0.8em;
 	border-radius: 5em;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
+}
+
+section:not(.Index-page--has-image) a.sqs-block-button-element--medium.sqs-block-button-element,
+body:not(.button-style-default) section:not(.Index-page--has-image) .sqs-editable-button,
+body:not(.button-style-default) .sqs-editable-button, body:not(.button-style-default) .sqs-editable-button-font {
+	background-color: #ee7203;
+	color: #fff;
+}
+
+body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editable-button, body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editable-button-color {
+    color:#ee7203;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .Mobile .Mobile-overlay-menu-main .Mobile-overlay-nav.Mobile-overlay-nav--primary .Mobile-overlay-nav-item,
@@ -40,8 +58,6 @@ body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-
 	margin-bottom: 0.7rem;
 	font-size: 1.1rem;
 	line-height: 130%;
-	-webkit-font-smoothing: subpixel-antialiased;
-	-moz-osx-font-smoothing: auto;
 	max-width: 82%;
 }
 
@@ -49,7 +65,6 @@ body:not(.button-style-default).button-style-outline .sqs-alternate-block-style-
     color: #fff;
     background-color: #ee7203;
     font-size: 0.9rem;
-    padding: .3rem 0.8rem !important;
     -webkit-transition: .1s opacity linear;
     -moz-transition: .1s opacity linear;
     -o-transition: .1s opacity linear;

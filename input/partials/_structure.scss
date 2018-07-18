@@ -10,12 +10,55 @@ body {
 
 /* SPACER */
 
-#spacer {
-	background-color: #ee7203;
-	min-height: 20rem;
-	/* add childi? */
-}
+// #spacer { /*choose other id*/
+// 	background-color: #ee7203;
+// 	min-height: 20rem;
+// 	/* add childi? */
+// }
 
 #spacer figure{
 	display: none;
+}
+
+
+
+/* INDEX PAGE TOP SECTION COLORED */ 
+
+.Index-page.Index-page--has-image:nth-child(2) {
+	color: #fff;
+	padding: 2rem 0 2rem 0;
+	min-height: auto;
+	overflow: visible;
+	background-color: #ee7203;
+}
+.Index-page.Index-page--has-image:nth-child(2) figure.Index-page-image{
+	display: none;
+}
+
+.Index-page.Index-page--has-image:nth-child(2) .Index-page-content {
+	margin-top: 1rem;
+}
+
+.Index-page.Index-page--has-image:nth-child(2)::before {
+	content: " ";
+	width: 100%;
+	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23ee7203"/></svg>');
+	background-size: cover;
+	position: absolute;
+	display: block;
+	margin-top: -6rem;
+	height: 4rem;
+	z-index: 9999;
+}
+
+
+
+/* SITE INTRO BANNER */ 
+
+.Site .Intro--has-image .Intro-content {
+    padding-bottom: 1.5rem;
+}
+
+.Site .Intro.Intro--has-image+main.Main--page {
+	padding-top: 1rem;
 }
