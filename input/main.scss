@@ -6,6 +6,7 @@
 @import 'partials/header';
 @import 'partials/newsletter';
 @import 'partials/searchbar';
+@import 'partials/mobilemenu';
 
 
 
@@ -41,7 +42,7 @@
 	display: block;
 	margin-top: -6rem;
 	height: 4rem;
-	z-index: 999;
+	z-index: 99999;
 }
 
 

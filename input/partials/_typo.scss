@@ -8,6 +8,12 @@ html {
 	font-size: 18px;
 }
 
+// @media screen and (max-width: 760px) {
+// 	html {
+// 		font-size: 17px;
+// 	}
+// }
+
 body, p {
 	font-family: 'Gentium Basic', serif;
 	letter-spacing: 0;
@@ -152,8 +158,4 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 .Footer-blocks .sqs-block-html p a:hover, .Footer-blocks .sqs-block-markdown p a:hover, .Footer-blocks .sqs-block-image p a:hover, .Footer-blocks .sqs-block-html blockquote a:hover, .Footer-blocks .sqs-block-markdown blockquote a:hover, .Footer-blocks .sqs-block-image blockquote a:hover, .Footer-blocks .sqs-block-html ol a:hover, .Footer-blocks .sqs-block-markdown ol a:hover, .Footer-blocks .sqs-block-image ol a:hover, .Footer-blocks .sqs-block-html ul a:hover, .Footer-blocks .sqs-block-markdown ul a:hover, .Footer-blocks .sqs-block-image ul a:hover {
 	color: #ee7203;
 	border-bottom-color: #ee7203;
-}
-
-nav.Footer-nav{
-	margin-top:-5.9rem;
 }

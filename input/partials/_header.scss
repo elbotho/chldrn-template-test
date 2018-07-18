@@ -4,6 +4,13 @@
 /* ============================================================= */
 /* ============================================================= */
 
+
+.Header-branding-logo {
+	max-width: auto;
+	width: 11rem;
+}
+
+
 .Header div[data-nc-container="bottom-right"] {
 	background-color: #ee7203;
 	position: absolute;
@@ -51,7 +58,9 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 	opacity: 1;
 }
 
-.Header-nav--secondary .Header-nav-item::before {
+.Header-nav--secondary .Header-nav-item::before,
+.Mobile-overlay-nav-item::before
+ {
 	display: inline-block;
 	font-style: normal;
 	font-variant: normal;
@@ -62,17 +71,29 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 	font-weight: 900;
 }
 
-.Header-nav--secondary .Header-nav-item[href$="downloads/"]::before {
+.Header-nav--secondary .Header-nav-item[href$="downloads/"]::before,
+.Mobile-overlay-nav-item[href$="downloads/"]::before {
   content: "\f358"; /*arrow down*/
 }
-.Header-nav--secondary .Header-nav-item[href$="presse/"]::before {
+.Header-nav--secondary .Header-nav-item[href$="presse/"]::before,
+.Mobile-overlay-nav-item[href$="presse/"]::before {
   content: "\f0a1"; /*bullhorn*/
 }
-.Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before {
+.Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before,
+.Mobile-overlay-nav-item[href$="kontakt/"]::before {
   content: "\f086"; /*comments*/
 }
-.Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before {
+.Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before,
+.Mobile-overlay-nav-item[href$="aktuelles/"]::before {
   content: "\f0f3"; /**/
+}
+
+
+
+/* PRIMARY */
+
+.Header-nav {
+	white-space: inherit;
 }
 
 .tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner{
@@ -88,20 +109,9 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 	font-size: .9rem;
 }
 
+.Header-nav--primary .Header-nav-item[href="/"]{
+	
+	display: none;
+}
 
-/* spenden button */
-.Header-nav--primary .Header-nav-inner .Header-nav-item:last-child{
-    color: #fff;
-    background-color: #ee7203;    
-    border-radius: 300px;
-    padding: .3rem 0.8rem !important;
-    -webkit-transition: .1s opacity linear;
-    -moz-transition: .1s opacity linear;
-    -o-transition: .1s opacity linear;
-    transition: .1s opacity linear;
-    margin-top:-0.13rem;
-}
-.Header-nav--primary .Header-nav-inner .Header-nav-item:last-child:hover{
-    color: #fff;
-    opacity: 0.8;
-}
+/* spenden button in buttons */
