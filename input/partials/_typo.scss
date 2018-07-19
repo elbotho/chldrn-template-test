@@ -86,12 +86,15 @@ h3+p{
 }
 
 h1 em, h2 em, h3 em {
-	font-style: normal;
-	font-family: "Gentium Basic", serif;
-	text-transform: none;
 	font-weight: normal;
 	color: #222;
+}
+
+em {
+	font-style: normal;
+	text-transform: none;
 	letter-spacing: 0;
+	font-family: "Gentium Basic", serif;
 }
 
 h3, h4 {
@@ -117,7 +120,11 @@ h1 strong::after, h2 strong::after, h3 strong::after,
 	background-color: #ee7203;
 }
 
-.yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after {
+.yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after,
+.Intro.Intro--has-image h1 strong::after,
+.Intro.Intro--has-image h2 strong::after,
+.Intro.Intro--has-image h3 strong::after
+{
 	background-color: #fff;
 }
 
