@@ -12,7 +12,7 @@
 
 
 .Header div[data-nc-container="bottom-right"] {
-	background-color: #ee7203;
+	background-color: $orange;
 	position: absolute;
 	top: -9.7rem;
 	width:100%;
@@ -22,7 +22,7 @@
 @media screen and (min-width: 1240px) {
 	body {
 		margin-top: 0 !important;
-		border-top: 1.8rem solid #ee7203;
+		border-top: 1.8rem solid $orange;
 	}
 	.Header div[data-nc-container="bottom-right"] {
 		position: relative !important;
@@ -47,7 +47,7 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 	font-size: 0.85rem;
 	font-weight: bold;
 	letter-spacing: 0;
-	opacity: 0.7;
+	opacity: 0.75;
 	padding: 0;
 	margin:0;
 	margin-left: 1rem;
@@ -69,6 +69,7 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 	margin-right: 0.3rem;
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
+	color: $orange50;
 }
 
 .Header-nav--secondary .Header-nav-item[href$="downloads/"]::before,
@@ -96,13 +97,27 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 	white-space: inherit;
 }
 
-.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner{
+.Header-nav--primary .Header-nav-folder {
+	border-radius: .5rem;
+    margin-left: -0.75rem;
+    padding: .6rem;
+	padding-bottom: 0.31rem;
+}
+
+
+.Header-nav .Header-nav-inner{
 	margin-top: 0.5rem;
 }
 
-.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-folder-item{
-	color: rgba(255,255,255,0.6);
+.Header-nav .Header-nav-folder-item{
+	// color: rgba(255,255,255,0.6);
 }
+
+.Header-nav--primary .Header-nav-inner .Header-nav-item:hover,
+.Header-nav--primary .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover {
+	color: $orange;
+}
+
 
 .Header-nav--primary .Header-nav-inner .Header-nav-item {
 	font-family: 'Overpass', sans-serif;

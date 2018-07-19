@@ -479,7 +479,7 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
   font-size: 0.85rem;
   font-weight: bold;
   letter-spacing: 0;
-  opacity: 0.7;
+  opacity: 0.75;
   padding: 0;
   margin: 0;
   margin-left: 1rem;
@@ -502,30 +502,31 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
   margin-right: 0.3rem;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  color: #f9bd88;
 }
 
-/* line 74, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 75, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="downloads/"]::before,
 .Mobile-overlay-nav-item[href$="downloads/"]::before {
   content: "\f358";
   /*arrow down*/
 }
 
-/* line 78, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 79, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="presse/"]::before,
 .Mobile-overlay-nav-item[href$="presse/"]::before {
   content: "\f0a1";
   /*bullhorn*/
 }
 
-/* line 82, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 83, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before,
 .Mobile-overlay-nav-item[href$="kontakt/"]::before {
   content: "\f086";
   /*comments*/
 }
 
-/* line 86, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 87, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before,
 .Mobile-overlay-nav-item[href$="aktuelles/"]::before {
   content: "\f0f3";
@@ -533,28 +534,37 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 }
 
 /* PRIMARY */
-/* line 95, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 96, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav {
   white-space: inherit;
 }
 
-/* line 99, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-inner {
+/* line 100, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary .Header-nav-folder {
+  border-radius: .5rem;
+  margin-left: -0.75rem;
+  padding: .6rem;
+  padding-bottom: 0.31rem;
+}
+
+/* line 108, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav .Header-nav-inner {
   margin-top: 0.5rem;
 }
 
-/* line 103, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.tweak-header-primary-nav-hover-style-spotlight .Header-nav .Header-nav-folder-item {
-  color: rgba(255, 255, 255, 0.6);
+/* line 116, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary .Header-nav-inner .Header-nav-item:hover,
+.Header-nav--primary .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover {
+  color: #ee7203;
 }
 
-/* line 107, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 122, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav-inner .Header-nav-item {
   font-family: 'Overpass', sans-serif;
   font-size: .9rem;
 }
 
-/* line 112, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 127, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav-item[href="/"] {
   display: none;
 }
@@ -942,7 +952,7 @@ h1.BlogItem-title {
 /* Index Styles */
 /* ============================================================= */
 /* ============================================================= */
-/* line 28, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 34, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Site-inner main section:last-of-type {
   padding-bottom: 4rem;
 }
@@ -952,14 +962,14 @@ h1.BlogItem-title {
 /* Index Gallery */
 /* ============================================================= */
 /* ============================================================= */
-/* line 38, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 44, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery-item-image, .tweak-index-gallery-layout-slideshow .Index-gallery-wrapper,
 figure,
 .Intro--has-image {
   background-color: transparent !important;
 }
 
-/* line 45, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 51, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery figure.Index-gallery-item-image::before {
   content: ' ';
   display: block;
