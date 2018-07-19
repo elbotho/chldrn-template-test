@@ -39,10 +39,17 @@
 	padding-left: 0;
 }
 
+.Footer-nav {
+	z-index: 99;
+}
+
 .tweak-footer-layout-columns .Footer-nav-item {
 	display: inline-block;
 	padding-right: 2rem;
 }
+
+    // position: relative;
+    // z-index: -2;
 
 /* footer shape */
 

@@ -10,7 +10,7 @@ html {
 
 /* line 17, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 body, p {
-  font-family: 'Gentium Basic', serif;
+  font-family: 'Overpass', sans-serif;
   letter-spacing: 0;
 }
 
@@ -22,7 +22,9 @@ h1, h2, h3,
 .Footer .Footer-nav .Footer-nav-item,
 #index-aktuelles .summary-title,
 .form-wrapper .form-title,
-.form-wrapper .title {
+.form-wrapper .title,
+.BlogList-item .BlogList-item-title,
+.Share .Share-buttons::before {
   font-family: 'Overpass', sans-serif;
   font-weight: bold;
   color: #ee7203;
@@ -30,61 +32,68 @@ h1, h2, h3,
   line-height: 1.25;
 }
 
-/* line 38, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 40, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Header .Header-inner .Header-nav--secondary {
   text-transform: none;
 }
 
-/* line 42, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 44, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Footer-nav .Footer-nav-item, .Footer h3 {
   font-size: 1rem;
 }
 
-/* line 46, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 48, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1 {
   color: #ee7203;
   font-size: 1.9rem;
   font-weight: bold;
 }
 
-/* line 51, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 53, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h2 em {
   font-size: 1.9rem;
 }
 
-/* line 55, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 57, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h2, h3 em {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
-/* line 59, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
-h3 {
+/* line 61, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+h3,
+#index-aktuelles .summary-title,
+.BlogList-item .BlogList-item-title {
   font-size: 1.05rem;
 }
 
-/* line 63, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 67, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h2 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 68, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 72, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1 + h2, h1 + h1, h2 + h3 {
   margin-top: .2em;
 }
 
-/* line 71, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 76, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+h2 + h3 {
+  margin-top: -.5rem;
+}
+
+/* line 80, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h3 {
   margin-top: 1.8em;
   margin-bottom: 0;
 }
 
-/* line 75, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 84, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h3 + p {
   margin-top: .75em;
 }
 
-/* line 79, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 88, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1 em, h2 em, h3 em {
   font-style: normal;
   font-family: "Gentium Basic", serif;
@@ -94,22 +103,22 @@ h1 em, h2 em, h3 em {
   letter-spacing: 0;
 }
 
-/* line 88, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 97, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h3, h4 {
   letter-spacing: 0.025em;
 }
 
-/* line 92, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 101, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Index-page.Index-page--has-image h1 em, .Index-page.Index-page--has-image h2 em, .Index-page.Index-page--has-image h3 em {
   color: #fff;
 }
 
-/* line 96, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 105, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1, h2 strong, h3 strong {
   font-weight: bold;
 }
 
-/* line 100, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 109, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1 strong::after, h2 strong::after, h3 strong::after,
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after {
   content: ' ';
@@ -120,40 +129,40 @@ h1 strong::after, h2 strong::after, h3 strong::after,
   background-color: #ee7203;
 }
 
-/* line 111, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 120, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after {
   background-color: #fff;
 }
 
-/* line 116, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 125, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1.text-align-center strong::after, h2.text-align-center strong::after, h3.text-align-center strong::after {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 120, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 129, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1.text-align-left strong::after, h2.text-align-left strong::after, h3.text-align-left strong::after {
   margin-left: 0;
   margin-right: auto;
 }
 
-/* line 124, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 133, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-align-right strong::after {
   margin-left: auto;
   margin-right: 0;
 }
 
-/* line 129, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 138, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Index-page--has-image h1 {
   color: #fff;
 }
 
-/* line 133, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 142, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Index-page--has-image h1 strong::after {
   background-color: #fff;
 }
 
-/* line 137, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 146, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Index-gallery-item-content-heading,
 .Intro.Intro--has-image h2 {
   font-family: "Overpass", sans-serif;
@@ -162,13 +171,13 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
   margin-bottom: 2rem;
 }
 
-/* line 145, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 154, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Intro.Intro--has-image h1, .Intro.Intro--has-image h2 {
   text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
   text-transform: none;
 }
 
-/* line 150, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 159, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Index-gallery-item-content-body p {
   font-size: 1.9rem;
   font-family: 'Gentium Basic', serif;
@@ -181,13 +190,13 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 /* LINKS */
 /* ============================================================= */
 /* ============================================================= */
-/* line 164, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 173, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Footer-blocks .sqs-block-html p a, .Footer-blocks .sqs-block-markdown p a, .Footer-blocks .sqs-block-image p a, .Footer-blocks .sqs-block-html blockquote a, .Footer-blocks .sqs-block-markdown blockquote a, .Footer-blocks .sqs-block-image blockquote a, .Footer-blocks .sqs-block-html ol a, .Footer-blocks .sqs-block-markdown ol a, .Footer-blocks .sqs-block-image ol a, .Footer-blocks .sqs-block-html ul a, .Footer-blocks .sqs-block-markdown ul a, .Footer-blocks .sqs-block-image ul a {
   padding-bottom: 0;
   border-bottom-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 169, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 178, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Footer-blocks .sqs-block-html p a:hover, .Footer-blocks .sqs-block-markdown p a:hover, .Footer-blocks .sqs-block-image p a:hover, .Footer-blocks .sqs-block-html blockquote a:hover, .Footer-blocks .sqs-block-markdown blockquote a:hover, .Footer-blocks .sqs-block-image blockquote a:hover, .Footer-blocks .sqs-block-html ol a:hover, .Footer-blocks .sqs-block-markdown ol a:hover, .Footer-blocks .sqs-block-image ol a:hover, .Footer-blocks .sqs-block-html ul a:hover, .Footer-blocks .sqs-block-markdown ul a:hover, .Footer-blocks .sqs-block-image ul a:hover {
   color: #ee7203;
   border-bottom-color: #ee7203;
@@ -388,13 +397,18 @@ body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editab
 }
 
 /* line 42, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_footer.scss */
+.Footer-nav {
+  z-index: 99;
+}
+
+/* line 46, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_footer.scss */
 .tweak-footer-layout-columns .Footer-nav-item {
   display: inline-block;
   padding-right: 2rem;
 }
 
 /* footer shape */
-/* line 49, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_footer.scss */
+/* line 56, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_footer.scss */
 footer.Footer::before {
   content: " ";
   display: block;
@@ -407,7 +421,7 @@ footer.Footer::before {
 }
 
 @media screen and (min-width: 820px) {
-  /* line 61, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_footer.scss */
+  /* line 68, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_footer.scss */
   nav.Footer-nav {
     margin-top: -5.9rem;
   }
@@ -720,6 +734,203 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
   padding-left: .3rem;
 }
 
+/* ============================================================= */
+/* ============================================================= */
+/* Aktuelles INDEX AND SITE */
+/* ============================================================= */
+/* ============================================================= */
+/* line 8, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.summary-item .img-wrapper::before,
+.BlogList-item-image-link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  transition: all .2s linear;
+  z-index: 1;
+}
+
+/* line 21, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.summary-item:hover .img-wrapper::before,
+.BlogList-item:hover .BlogList-item-image-link::before {
+  background: rgba(238, 114, 3, 0.3);
+}
+
+/* line 27, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.Index-page .Index-page-content {
+  margin-top: 4.5rem;
+  padding-top: 0;
+}
+
+/* line 32, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+#index-aktuelles h1 {
+  margin-bottom: -2rem;
+}
+
+/* line 36, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+#index-aktuelles .summary-title,
+.BlogList .BlogList-item-title {
+  /*padding-left:0.5rem;*/
+  padding: 0;
+}
+
+/* line 53, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-gallery-design-carousel .sqs-gallery-controls .next:before, .sqs-gallery-design-carousel .sqs-gallery-controls .previous:before {
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  color: #ee7203;
+}
+
+/* line 60, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-carousel-pager {
+  width: 60px;
+}
+
+/* line 63, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-block-summary-v2 .summary-excerpt p,
+.sqs-block-summary-v2 .summary-read-more-link,
+.sqs-block-summary-v2 time,
+.BlogList .BlogList-item-excerpt p {
+  font-size: 1rem;
+  font-family: Overpass, sans-serif;
+  line-height: 1.4em;
+}
+
+/* line 72, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-block-summary-v2 .summary-read-more-link,
+.tweak-blog-list-item-readmore-below-excerpt .BlogList-item-readmore,
+.BlogList-item-readmore span:after {
+  font-family: Overpass, sans-serif;
+  color: #ee7203;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* line 82, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.BlogList-item-readmore span:after {
+  padding-left: 0.2rem;
+}
+
+/* line 86, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.tweak-blog-list-item-readmore-below-excerpt .BlogList-item-readmore {
+  display: inline-block;
+}
+
+/* line 90, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-block-summary-v2 .summary-metadata time,
+.BlogList-item-meta time.Blog-meta-item {
+  font-size: 0.7rem;
+  color: #222;
+  opacity: 0;
+  transition: all .2s linear;
+}
+
+/* line 98, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.summary-item:hover time,
+.BlogList-item-meta time.Blog-meta-item,
+.BlogList-item:hover .BlogList-item-meta time.Blog-meta-item {
+  opacity: 1;
+}
+
+/* line 104, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.tweak-blog-list-alignment-left .BlogList-item-meta {
+  -webkit-box-pack: flex-end;
+  -ms-flex-pack: flex-end;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+/* line 114, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.BlogList time.Blog-meta-item--date {
+  margin-top: -2.7rem;
+  padding-right: 1rem;
+}
+
+/* line 119, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-block-summary-v2 .summary-block-setting-metadata-position-above-title .summary-metadata-container--above-title, .sqs-block-summary-v2 .summary-block-setting-metadata-position-below-title .summary-metadata-container--below-title, .sqs-block-summary-v2 .summary-block-setting-metadata-position-below-content .summary-metadata-container--below-content {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  padding-right: 1rem;
+}
+
+/* line 127, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-block-summary-v2 .summary-item-record-type-text .summary-read-more-link,
+.tweak-blog-list-item-readmore-below-excerpt .BlogList-item-readmore {
+  display: inline-block;
+}
+
+/* line 132, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.sqs-block.summary-v2-block {
+  padding-bottom: 0;
+}
+
+/* line 136, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.BlogList-item-image,
+.sqs-block-summary-v2 .summary-block-setting-show-title .summary-thumbnail-container {
+  margin-bottom: 1rem;
+}
+
+/* line 142, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.tweak-site-width-option-full-background .Main-content {
+  padding-top: 2rem;
+}
+
+/* ============================================================= */
+/* ============================================================= */
+/* Aktuelles SINGLE VIEW */
+/* ============================================================= */
+/* ============================================================= */
+/* line 154, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+h1.BlogItem-title {
+  margin-bottom: 0;
+}
+
+/* line 158, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.BlogItem .Blog-meta-item--date {
+  font-family: Overpass, sans-serif;
+  font-size: .8rem;
+  color: #888;
+  margin-bottom: .5rem;
+}
+
+/* line 165, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.Main--blog-item p {
+  font-family: Overpass, sans-serif;
+}
+
+/* line 169, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.Site-inner .Main--blog-item section:last-of-type {
+  padding: 0;
+}
+
+/* line 173, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.Share .Share-buttons::before {
+  content: "Teilen";
+  display: block;
+  margin-bottom: .2rem;
+  font-size: 0.7rem;
+}
+
+/* line 179, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.Share .Share-buttons {
+  margin-bottom: 3rem;
+}
+
+/* line 183, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.Main--blog-item .BlogItem-pagination {
+  padding-bottom: 6rem;
+}
+
 /* REST -> Sort later! */
 /* ============================================================= */
 /* ============================================================= */
@@ -731,7 +942,7 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 /* Index Styles */
 /* ============================================================= */
 /* ============================================================= */
-/* line 27, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 28, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Site-inner main section:last-of-type {
   padding-bottom: 4rem;
 }
@@ -741,14 +952,14 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 /* Index Gallery */
 /* ============================================================= */
 /* ============================================================= */
-/* line 37, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 38, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery-item-image, .tweak-index-gallery-layout-slideshow .Index-gallery-wrapper,
 figure,
 .Intro--has-image {
   background-color: transparent !important;
 }
 
-/* line 44, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 45, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery figure.Index-gallery-item-image::before {
   content: ' ';
   display: block;
@@ -766,105 +977,5 @@ figure,
 	bottom: 3rem;
 }
 */
-/* ============================================================= */
-/* ============================================================= */
-/* Aktuelles (index section) */
-/* ============================================================= */
-/* ============================================================= */
-/* line 70, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.summary-item .img-wrapper::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: none;
-  transition: all .2s linear;
-  z-index: 1;
-}
-
-/* line 82, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.summary-item:hover .img-wrapper::before {
-  background: rgba(238, 114, 3, 0.3);
-}
-
-/* line 86, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.Index-page .Index-page-content {
-  margin-top: 4.5rem;
-  padding-top: 0;
-}
-
-/* line 91, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-#index-aktuelles h1 {
-  margin-bottom: -2rem;
-}
-
-/* line 95, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-#index-aktuelles .summary-title {
-  /*padding-left:0.5rem;*/
-  padding: 0;
-}
-
-/* line 110, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.sqs-gallery-design-carousel .sqs-gallery-controls .next:before, .sqs-gallery-design-carousel .sqs-gallery-controls .previous:before {
-  font-size: 25px;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  color: #ee7203;
-}
-
-/* line 117, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-carousel-pager {
-  width: 60px;
-}
-
-/* line 120, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.sqs-block-summary-v2 .summary-excerpt p,
-.sqs-block-summary-v2 .summary-read-more-link,
-.sqs-block-summary-v2 time {
-  font-size: 1rem;
-  font-family: Overpass, sans-serif;
-}
-
-/* line 127, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.sqs-block-summary-v2 .summary-read-more-link {
-  color: #ee7203;
-  font-weight: bold;
-  font-size: 0.8rem;
-}
-
-/* line 133, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.sqs-block-summary-v2 .summary-metadata time {
-  font-size: 0.7rem;
-  color: #222;
-  opacity: .6;
-  transition: all .2s linear;
-}
-
-/* line 140, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.summary-item:hover time {
-  opacity: 1;
-}
-
-/* line 144, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.sqs-block-summary-v2 .summary-block-setting-metadata-position-above-title .summary-metadata-container--above-title, .sqs-block-summary-v2 .summary-block-setting-metadata-position-below-title .summary-metadata-container--below-title, .sqs-block-summary-v2 .summary-block-setting-metadata-position-below-content .summary-metadata-container--below-content {
-  display: inline-block;
-  text-align: right;
-  float: right;
-  padding-right: 1rem;
-}
-
-/* =================================================== */
-/* =================================================== */
-/* AKTUELLES */
-/* =================================================== */
-/* =================================================== */
-/* line 157, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.tweak-site-width-option-full-background .Main-content {
-  padding-top: 2rem;
-}
 
 /*# sourceMappingURL=../output/main.map */

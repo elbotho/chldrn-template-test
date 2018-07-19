@@ -7,6 +7,7 @@
 @import 'partials/newsletter';
 @import 'partials/searchbar';
 @import 'partials/mobilemenu';
+@import 'partials/aktuelles';
 
 
 
@@ -61,99 +62,3 @@ figure,
 
 
 
-/* ============================================================= */
-/* ============================================================= */
-/* Aktuelles (index section) */
-/* ============================================================= */
-/* ============================================================= */
-
-.summary-item .img-wrapper::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: none;
-  transition: all .2s linear;
-  z-index:1;
-}
-.summary-item:hover .img-wrapper::before { 
-  background:rgba(238,114,3,0.3);
-}
-
-.Index-page .Index-page-content {
-	margin-top: 4.5rem;
-	padding-top: 0;
-}
-
-#index-aktuelles h1 {
-	margin-bottom: -2rem;
-}
-
-#index-aktuelles .summary-title {
-	// color:#fff;
-	// position: absolute;
-	// top: 0;
-	// width: auto;
-	/*padding-left:0.5rem;*/
-	// text-transform: uppercase;
-	// font-size: 1rem;
-	// width: 31.5%;
-	// padding: .5rem .5rem .8rem .5rem;
-	// background: linear-gradient(to top, rgba(0,0,0,0) 7%,rgba(0,0,0,0.30) 100%);
-	// text-shadow: rgba(0,0,0,0.4) 0px 0px 7px;
-	padding: 0;
-}
-
-.sqs-gallery-design-carousel .sqs-gallery-controls .next:before,.sqs-gallery-design-carousel .sqs-gallery-controls .previous:before {
-    font-size: 25px;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-	color: #ee7203;
-}
-.sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-carousel-pager {
-	width: 60px;
-}
-.sqs-block-summary-v2 .summary-excerpt p,
-.sqs-block-summary-v2 .summary-read-more-link,
-.sqs-block-summary-v2 time {
-	font-size: 1rem;
-	font-family: Overpass, sans-serif;
-}
-
-.sqs-block-summary-v2 .summary-read-more-link{
-	color: #ee7203;
-	font-weight: bold;
-	font-size: 0.8rem;
-}
-
-.sqs-block-summary-v2 .summary-metadata time {
-	font-size: 0.7rem;
-	color: #222;
-	opacity: .6;
-	transition: all .2s linear;
-}
-
-.summary-item:hover time {
-	opacity: 1;
-}
-
-.sqs-block-summary-v2 .summary-block-setting-metadata-position-above-title .summary-metadata-container--above-title, .sqs-block-summary-v2 .summary-block-setting-metadata-position-below-title .summary-metadata-container--below-title, .sqs-block-summary-v2 .summary-block-setting-metadata-position-below-content .summary-metadata-container--below-content {
-    display: inline-block;
-    text-align: right;
-    float: right;
-    padding-right: 1rem;
-}
-
-/* =================================================== */
-/* =================================================== */
-/* AKTUELLES */
-/* =================================================== */
-/* =================================================== */
-
-.tweak-site-width-option-full-background .Main-content{
-    padding-top: 2rem;
-}

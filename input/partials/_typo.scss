@@ -12,10 +12,10 @@ html {
 // 	html {
 // 		font-size: 17px;
 // 	}
-// }
+// } 'Gentium Basic'
 
 body, p {
-	font-family: 'Gentium Basic', serif;
+	font-family: 'Overpass', sans-serif;
 	letter-spacing: 0;
 }
 
@@ -26,7 +26,9 @@ h1, h2, h3,
 .Footer .Footer-nav .Footer-nav-item,
 #index-aktuelles .summary-title,
 .form-wrapper .form-title,
-.form-wrapper .title
+.form-wrapper .title,
+.BlogList-item .BlogList-item-title,
+.Share .Share-buttons::before
  {
 	font-family: 'Overpass', sans-serif;
 	font-weight: bold;
@@ -53,10 +55,12 @@ h2 em {
 }
 
 h2, h3 em {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 }
 
-h3 {
+h3,
+#index-aktuelles .summary-title,
+.BlogList-item .BlogList-item-title {
 	font-size: 1.05rem;
 }
 
@@ -68,6 +72,11 @@ h2 {
 h1+h2, h1+h1, h2+h3 {
     margin-top: .2em;
 }
+
+h2+h3 {
+	margin-top: -.5rem;
+}
+
 h3 {
 	margin-top:1.8em;
 	margin-bottom: 0;
