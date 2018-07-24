@@ -21,6 +21,7 @@ body, p {
 
 /* headlines etc.*/
 h1, h2, h3,
+.blockquote em,
 .Header .Header-inner .Header-nav--secondary,
 .Footer h3,
 .Footer .Footer-nav .Footer-nav-item,
@@ -54,17 +55,18 @@ h2 em {
 	font-size: 1.9rem;
 }
 
-h2, h3 em {
+h2, h3 em, blockquote em {
 	font-size: 1.3rem;
 }
 
 h3,
 #index-aktuelles .summary-title,
-.BlogList-item .BlogList-item-title {
+.BlogList-item .BlogList-item-title,
+blockquote {
 	font-size: 1.05rem;
 }
 
-h2 {
+h2  {
 	margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
@@ -85,23 +87,28 @@ h3+p{
 	margin-top:.75em;
 }
 
-h1 em, h2 em, h3 em {
+h1 em, h2 em, h3 em{
 	font-weight: normal;
 	color: #222;
 }
 
-em {
+em, blockquote {
 	font-style: normal;
 	text-transform: none;
 	letter-spacing: 0;
 	font-family: "Gentium Basic", serif;
 }
 
-h3, h4 {
+h3, h4, blockquote {
 	letter-spacing: 0.025em;
 }
 
-.Index-page.Index-page--has-image h1 em, .Index-page.Index-page--has-image h2 em, .Index-page.Index-page--has-image h3 em {
+.row .sqs-block blockquote {
+	color: #ee7203;
+}
+
+.Index-page.Index-page--has-image h1 em, .Index-page.Index-page--has-image h2 em, .Index-page.Index-page--has-image h3 em,
+.Index-page.Index-page--has-image blockquote {
 	color: #fff;
 }
 
@@ -121,9 +128,8 @@ h1 strong::after, h2 strong::after, h3 strong::after,
 }
 
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after,
-.Intro.Intro--has-image h1 strong::after,
-.Intro.Intro--has-image h2 strong::after,
-.Intro.Intro--has-image h3 strong::after
+.Intro.Intro--has-image h1 strong::after, .Intro.Intro--has-image h2 strong::after, .Intro.Intro--has-image h3 strong::after,
+.Index-page--has-image h1 strong::after, .Index-page--has-image h2 strong::after, .Index-page--has-image h3 strong::after
 {
 	background-color: #fff;
 }
@@ -146,10 +152,6 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 	color: #fff;
 }
 
-.Index-page--has-image h1 strong::after{
-	background-color: #fff;
-}
-
 .Index-gallery-item-content-heading,
 .Intro.Intro--has-image h2 {
 	font-family: "Overpass", sans-serif;
@@ -170,6 +172,14 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 	margin-bottom: 5rem;
 }
 
+
+
+// zitat
+.row .sqs-block blockquote {
+	padding-left: 0;
+	border: 0;
+
+}
 
 /* ============================================================= */
 /* ============================================================= */
