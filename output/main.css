@@ -5,7 +5,7 @@
 /* =================================================== */
 /* line 7, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 html {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 /* line 17, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
@@ -459,7 +459,7 @@ footer.Footer::before {
 .Header div[data-nc-container="bottom-right"] {
   background-color: #ee7203;
   position: absolute;
-  top: -9.7rem;
+  top: -10.31rem;
   width: 100%;
 }
 
@@ -472,7 +472,7 @@ footer.Footer::before {
   /* line 27, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
   .Header div[data-nc-container="bottom-right"] {
     position: relative !important;
-    top: -10.5rem !important;
+    top: -11.17em !important;
   }
 }
 
