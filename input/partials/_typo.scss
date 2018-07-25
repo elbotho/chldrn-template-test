@@ -6,6 +6,7 @@
 
 html {
 	font-size: 15px;
+	border-left: 1rem solid #ff0;
 }
 
 // @media screen and (max-width: 760px) {
@@ -29,7 +30,8 @@ h1, h2, h3,
 .form-wrapper .form-title,
 .form-wrapper .title,
 .BlogList-item .BlogList-item-title,
-.Share .Share-buttons::before
+.Share .Share-buttons::before,
+.sqs-block-summary-v2 .summary-item-list .summary-title
  {
 	font-family: 'Overpass', sans-serif;
 	font-weight: bold;
@@ -62,7 +64,9 @@ h2, h3 em, blockquote em {
 h3,
 #index-aktuelles .summary-title,
 .BlogList-item .BlogList-item-title,
-blockquote {
+blockquote,
+.sqs-block-summary-v2 .summary-item-list .summary-title
+{
 	font-size: 1.05rem;
 }
 
