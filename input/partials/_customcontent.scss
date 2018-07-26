@@ -1,0 +1,35 @@
+
+
+/* Presse Site */
+
+
+#collection-5b435631352f532eead7b5a9 .Main-content .form-block.sqs-block-form{
+    background: #f69e64;
+    padding: 2.5rem 2.5rem 2.5rem 1.1rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+
+
+
+
+/* Über uns Ordnerseite */
+
+#page-5b55be036d2a73038b90cd82 .image-block.sqs-block-image {
+    padding-top: .15rem;
+    padding-bottom: 0;
+}
+
+
+
+/* images overlay; */
+.image-block .image-block-outer-wrapper{
+  background: #ee7203;
+}
+.image-block .image-block-outer-wrapper img {
+	transition: all .2s linear;
+}
+
+.row > .col:hover > .image-block a .image-block-outer-wrapper img{
+  opacity: 0.3;
+}

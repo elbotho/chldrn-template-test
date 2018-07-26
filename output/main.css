@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* =================================================== */
 /* TYPO GLOBAL*/
 /* =================================================== */
@@ -276,6 +277,11 @@ body {
 /* line 60, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
 .Site .Intro.Intro--has-image + main.Main--page {
   padding-top: 0;
+}
+
+/* line 66, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
+.Site-inner main section:last-of-type {
+  padding-bottom: 8rem;
 }
 
 /* other index pages with background: */
@@ -738,6 +744,15 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
   color: #fff;
 }
 
+/* search page */
+/* line 60, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.sqs-search-page-output .search-result em {
+  background: #f69e64;
+  color: #fff;
+  font-family: Overpass, sans-serif;
+  font-style: normal;
+}
+
 /* line 3, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_mobilemenu.scss */
 .Mobile-overlay-menu a.Mobile-overlay-nav-item {
   font-family: Overpass, sans-serif !important;
@@ -988,6 +1003,38 @@ h1.BlogItem-title {
   display: none !important;
 }
 
+/* Presse Site */
+/* line 6, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+#collection-5b435631352f532eead7b5a9 .Main-content .form-block.sqs-block-form {
+  background: #f69e64;
+  padding: 2.5rem 2.5rem 2.5rem 1.1rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+}
+
+/* Über uns Ordnerseite */
+/* line 18, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+#page-5b55be036d2a73038b90cd82 .image-block.sqs-block-image {
+  padding-top: .15rem;
+  padding-bottom: 0;
+}
+
+/* images overlay; */
+/* line 26, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+.image-block .image-block-outer-wrapper {
+  background: #ee7203;
+}
+
+/* line 29, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+.image-block .image-block-outer-wrapper img {
+  transition: all .2s linear;
+}
+
+/* line 33, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+.row > .col:hover > .image-block a .image-block-outer-wrapper img {
+  opacity: 0.3;
+}
+
 /* REST -> Sort later! */
 /* ============================================================= */
 /* ============================================================= */
@@ -996,27 +1043,17 @@ h1.BlogItem-title {
 /* ============================================================= */
 /* ============================================================= */
 /* ============================================================= */
-/* Index Styles */
-/* ============================================================= */
-/* ============================================================= */
-/* line 34, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
-.Site-inner main section:last-of-type {
-  padding-bottom: 4rem;
-}
-
-/* ============================================================= */
-/* ============================================================= */
 /* Index Gallery */
 /* ============================================================= */
 /* ============================================================= */
-/* line 44, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 34, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery-item-image, .tweak-index-gallery-layout-slideshow .Index-gallery-wrapper,
 figure,
 .Intro--has-image {
   background-color: transparent !important;
 }
 
-/* line 51, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 41, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery figure.Index-gallery-item-image::before,
 .Intro.Intro--has-image .Intro-image::before {
   content: ' ';
@@ -1030,7 +1067,7 @@ figure,
   background: linear-gradient(to bottom, transparent 5%, rgba(0, 0, 0, 0.7) 100%);
 }
 
-/* line 65, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 55, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Intro.Intro--has-image .Intro-image::before {
   z-index: 1;
   opacity: 0.7;
