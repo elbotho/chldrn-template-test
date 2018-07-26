@@ -103,6 +103,10 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 	padding-bottom: 0.31rem;
 }
 
+.Header-nav--primary .Header-nav-folder a.Header-nav-folder-item:first-child {
+	display: none;
+}
+
 
 .Header-nav .Header-nav-inner{
 	margin-top: 0.5rem;
