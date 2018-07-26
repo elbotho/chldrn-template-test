@@ -964,14 +964,26 @@ h1.BlogItem-title {
 }
 
 /* INTRO IMAGE ON BLOG PAGE */
-/* line 189, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
-.BlogItem .Intro--has-image {
-  height: 20rem;
+/* line 190, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.BlogItem .custom-img-wrapper {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-/* line 195, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+/* line 194, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.BlogItem .custom-img-wrapper .source {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+/* line 200, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
+.BlogItem .Intro--has-image {
+  height: 24rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+/* line 206, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_aktuelles.scss */
 .BlogItem .Intro--has-image .Intro-image:before {
   display: none !important;
 }
