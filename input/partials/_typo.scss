@@ -33,13 +33,13 @@ h1, h2, h3,
 .form-wrapper .title,
 .BlogList-item .BlogList-item-title,
 .Share .Share-buttons::before,
-.sqs-block-summary-v2 .summary-item-list .summary-title
+.sqs-block-summary-v2 .summary-item-list .summary-title,
  {
 	font-family: 'Overpass', sans-serif;
 	font-weight: bold;
 	color: #ee7203;
 	text-transform: uppercase;
-	line-height: 1.25;
+	line-height: 1.28;
 }
 
 .Header .Header-inner .Header-nav--secondary{
@@ -59,7 +59,7 @@ h2 em {
 	font-size: $h1size;
 }
 
-h2, h3 em, blockquote em {
+h2, h3 em, blockquote em, .sqs-block-quote blockquote {
 	font-size: $h2size;
 }
 
@@ -98,11 +98,16 @@ h1 em, h2 em, h3 em{
 	color: #222;
 }
 
-em, blockquote {
+em, blockquote,.sqs-block-quote blockquote {
 	font-style: normal;
 	text-transform: none;
 	letter-spacing: 0;
+	font-weight: normal;
 	font-family: "Gentium Basic", serif;
+}
+
+.sqs-block-quote blockquote {
+	line-height: 1.25;
 }
 
 h3, h4, blockquote {
@@ -190,6 +195,31 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 .sqs-block-summary-v2 .summary-item-list .summary-title {
     margin-bottom: 0.35rem;
 }
+
+.tweak-quote-block-alignment-center .sqs-block-quote .source {
+	font-family: "Overpass", sans-serif;
+	font-size: 1rem;
+	line-height: inherit;
+	padding: .5rem 0 .4rem 1rem;
+}
+
+.sqs-block-quote blockquote span{
+	display: none;
+}
+
+.sqs-block-quote {
+	border: 1px solid rgba(176,176,175,.5);
+	border-left: 0;
+	border-right: 0;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	padding: 1rem 1rem 0 1rem;
+}
+
+.sqs-block-quote figure{
+	margin: .5em 0;
+}
+
 
 /* ============================================================= */
 /* ============================================================= */

@@ -21,13 +21,14 @@
 
 
 /* images overlay; */
-.image-block .image-block-outer-wrapper{
+.image-block .image-block-outer-wrapper .image-block-wrapper{
   background: #ee7203;
 }
 .image-block .image-block-outer-wrapper img {
-	transition: all .2s linear;
+	transition: opacity .2s linear;
+	-webkit-backface-visibility: hidden;
 }
 
 .row > .col:hover > .image-block .image-block-outer-wrapper a img{
-  opacity: 0.6;
+  opacity: 0.75;
 }
