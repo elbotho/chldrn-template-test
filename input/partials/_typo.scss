@@ -1,11 +1,14 @@
 /* =================================================== */
-/* =================================================== */
 /* TYPO GLOBAL*/
 /* =================================================== */
-/* =================================================== */
+
+
+$h1size: 1.9rem;
+$h2size: 1.4rem;
+$h3size: 1.05rem;
 
 html {
-	font-size: 15px;
+	font-size: 16px;
 }
 
 // @media screen and (max-width: 760px) {
@@ -49,15 +52,15 @@ h1, h2, h3,
 
 h1 {
 	color: #ee7203;
-	font-size: 1.9rem;
+	font-size: $h1size;
 	font-weight: bold;
 }
 h2 em {
-	font-size: 1.9rem;
+	font-size: $h1size;
 }
 
 h2, h3 em, blockquote em {
-	font-size: 1.3rem;
+	font-size: $h2size;
 }
 
 h3,
@@ -66,7 +69,7 @@ h3,
 blockquote,
 .sqs-block-summary-v2 .summary-item-list .summary-title
 {
-	font-size: 1.05rem;
+	font-size: $h3size;
 }
 
 h2  {
@@ -78,8 +81,8 @@ h1+h2, h1+h1, h2+h3 {
     margin-top: .2em;
 }
 
-h2+h3 {
-	margin-top: -.5rem;
+h1+h2, h2+h3 {
+	margin-top: -.4em;
 }
 
 h3 {
@@ -158,7 +161,7 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 .Index-gallery-item-content-heading,
 .Intro.Intro--has-image h2 {
 	font-family: "Overpass", sans-serif;
-	font-size: 1.9rem;
+	font-size: $h1size;
 	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
 	margin-bottom: 2rem;
 }
@@ -169,7 +172,7 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 } 
 
 .Index-gallery-item-content-body p {
-	font-size: 1.9rem;
+	font-size: $h1size;
 	font-family: 'Gentium Basic', serif;
 	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
 	margin-bottom: 5rem;
@@ -182,6 +185,10 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 	padding-left: 0;
 	border: 0;
 
+}
+
+.sqs-block-summary-v2 .summary-item-list .summary-title {
+    margin-bottom: 0.35rem;
 }
 
 /* ============================================================= */

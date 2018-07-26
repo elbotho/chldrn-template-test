@@ -183,3 +183,15 @@ h1.BlogItem-title {
 .Main--blog-item .BlogItem-pagination {
 	padding-bottom: 6rem;
 }
+
+
+/* INTRO IMAGE ON BLOG PAGE */
+.BlogItem .Intro--has-image {
+    height: 20rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.BlogItem .Intro--has-image .Intro-image:before {
+    display: none !important;
+}
