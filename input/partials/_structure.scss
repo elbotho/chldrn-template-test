@@ -74,6 +74,37 @@ body {
 // 	min-height: 4rem;
 // }
 
+section.Index-page[id$="spenden-childi"] {
+	background: $orange url("https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg") no-repeat;
+	}
+
+
+section.Index-page[id$="childi"] {
+	
+	background-color: $orange;
+    background-size: 7rem;
+    background-position: 100% 100%;
+
+    @media screen and (min-width: 875px) {
+    	background-size: 11rem;
+    	background-position: 85% 100%;
+    }
+    
+    @media screen and (min-width: 1300px) {
+    	background-size: 14rem;
+    	background-position: 70% 100%;
+    }
+
+	figure {
+		display: none;
+	}
+}
 
 
 
+
+
+
+
+
+    

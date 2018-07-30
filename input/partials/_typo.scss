@@ -227,6 +227,12 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 /* ============================================================= */
 /* ============================================================= */
 
+h1 strong a, h2 strong a, h3 strong a {
+	text-decoration: none;
+	border-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
 .Footer-blocks .sqs-block-html p a, .Footer-blocks .sqs-block-markdown p a, .Footer-blocks .sqs-block-image p a, .Footer-blocks .sqs-block-html blockquote a, .Footer-blocks .sqs-block-markdown blockquote a, .Footer-blocks .sqs-block-image blockquote a, .Footer-blocks .sqs-block-html ol a, .Footer-blocks .sqs-block-markdown ol a, .Footer-blocks .sqs-block-image ol a, .Footer-blocks .sqs-block-html ul a, .Footer-blocks .sqs-block-markdown ul a, .Footer-blocks .sqs-block-image ul a {
 	padding-bottom: 0;
     border-bottom-color: rgba(0,0,0,.5);
@@ -235,4 +241,17 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 .Footer-blocks .sqs-block-html p a:hover, .Footer-blocks .sqs-block-markdown p a:hover, .Footer-blocks .sqs-block-image p a:hover, .Footer-blocks .sqs-block-html blockquote a:hover, .Footer-blocks .sqs-block-markdown blockquote a:hover, .Footer-blocks .sqs-block-image blockquote a:hover, .Footer-blocks .sqs-block-html ol a:hover, .Footer-blocks .sqs-block-markdown ol a:hover, .Footer-blocks .sqs-block-image ol a:hover, .Footer-blocks .sqs-block-html ul a:hover, .Footer-blocks .sqs-block-markdown ul a:hover, .Footer-blocks .sqs-block-image ul a:hover {
 	color: #ee7203;
 	border-bottom-color: #ee7203;
+}
+
+
+
+/* SELECTION */ 
+
+::selection {
+  color: #fff;
+  background: $orange; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color: #fff;
+  background: $orange; /* Gecko Browsers */
 }

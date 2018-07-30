@@ -246,15 +246,37 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 /* ============================================================= */
 /* ============================================================= */
 /* line 230, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+h1 strong a, h2 strong a, h3 strong a {
+  text-decoration: none;
+  border-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+/* line 236, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Footer-blocks .sqs-block-html p a, .Footer-blocks .sqs-block-markdown p a, .Footer-blocks .sqs-block-image p a, .Footer-blocks .sqs-block-html blockquote a, .Footer-blocks .sqs-block-markdown blockquote a, .Footer-blocks .sqs-block-image blockquote a, .Footer-blocks .sqs-block-html ol a, .Footer-blocks .sqs-block-markdown ol a, .Footer-blocks .sqs-block-image ol a, .Footer-blocks .sqs-block-html ul a, .Footer-blocks .sqs-block-markdown ul a, .Footer-blocks .sqs-block-image ul a {
   padding-bottom: 0;
   border-bottom-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 235, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+/* line 241, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 .Footer-blocks .sqs-block-html p a:hover, .Footer-blocks .sqs-block-markdown p a:hover, .Footer-blocks .sqs-block-image p a:hover, .Footer-blocks .sqs-block-html blockquote a:hover, .Footer-blocks .sqs-block-markdown blockquote a:hover, .Footer-blocks .sqs-block-image blockquote a:hover, .Footer-blocks .sqs-block-html ol a:hover, .Footer-blocks .sqs-block-markdown ol a:hover, .Footer-blocks .sqs-block-image ol a:hover, .Footer-blocks .sqs-block-html ul a:hover, .Footer-blocks .sqs-block-markdown ul a:hover, .Footer-blocks .sqs-block-image ul a:hover {
   color: #ee7203;
   border-bottom-color: #ee7203;
+}
+
+/* SELECTION */
+/* line 250, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+::selection {
+  color: #fff;
+  background: #ee7203;
+  /* WebKit/Blink Browsers */
+}
+
+/* line 254, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
+::-moz-selection {
+  color: #fff;
+  background: #ee7203;
+  /* Gecko Browsers */
 }
 
 /* line 2, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
@@ -319,6 +341,39 @@ body {
 }
 
 /* other index pages with background: */
+/* line 77, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
+section.Index-page[id$="spenden-childi"] {
+  background: #ee7203 url("https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg") no-repeat;
+}
+
+/* line 82, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
+section.Index-page[id$="childi"] {
+  background-color: #ee7203;
+  background-size: 7rem;
+  background-position: 100% 100%;
+}
+
+@media screen and (min-width: 875px) {
+  /* line 82, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
+  section.Index-page[id$="childi"] {
+    background-size: 11rem;
+    background-position: 85% 100%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  /* line 82, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
+  section.Index-page[id$="childi"] {
+    background-size: 14rem;
+    background-position: 70% 100%;
+  }
+}
+
+/* line 98, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_structure.scss */
+section.Index-page[id$="childi"] figure {
+  display: none;
+}
+
 /* ============================================================= */
 /* ============================================================= */
 /* Buttons */
@@ -1070,8 +1125,8 @@ h1.BlogItem-title {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 32, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
-.row > .col:hover > .image-block .image-block-outer-wrapper a img {
+/* line 34, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+.row > .col.span-1:hover > .image-block .image-block-outer-wrapper a img, .row > .col.span-2:hover > .image-block .image-block-outer-wrapper a img, .row > .col.span-3:hover > .image-block .image-block-outer-wrapper a img, .row > .col.span-4:hover > .image-block .image-block-outer-wrapper a img, .row > .col.span-5:hover > .image-block .image-block-outer-wrapper a img {
   opacity: 0.75;
 }
 
