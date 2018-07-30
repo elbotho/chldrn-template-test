@@ -1,8 +1,9 @@
 
 
+
+
+
 /* Presse Site */
-
-
 #collection-5b435631352f532eead7b5a9 .Main-content .form-block.sqs-block-form{
     background: #f69e64;
     padding: 2.5rem 2.5rem 2.5rem 1.1rem;
@@ -21,19 +22,55 @@
 
 
 /* images overlay; */
+
+.img-wrapper, .image-block-wrapper {
+  border-radius: .3rem;
+}
+
 .image-block .image-block-outer-wrapper .image-block-wrapper{
   background: #ee7203;
 }
 .image-block .image-block-outer-wrapper img {
-	transition: opacity .2s linear;
-	-webkit-backface-visibility: hidden;
+  transition: opacity .2s linear;
+  -webkit-backface-visibility: hidden;
 }
 
-.row > .col.span-1:hover, .row > .col.span-2:hover, .row > .col.span-3:hover, .row > .col.span-4:hover, .row > .col.span-5:hover, {
+.row > .col.span-1:hover, .row > .col.span-2:hover, .row > .col.span-3:hover, .row > .col.span-4:hover, .row > .col.span-5:hover {
 
   > .image-block .image-block-outer-wrapper a img{
-  		opacity: 0.75;
-	}
+      opacity: 0.75;
+  }
 }
 
+.image-block-outer-wrapper:hover a img{
+  opacity: 0.75;
+}
+
+/* kontakt map hack helper */
+
+.disable-hover {
+  pointer-events: none;
+}
+
+
+html {
+  border-left: 2rem solid gray;
+}
+
+
+/* HOME */
+
+#index-aktuelles .summary-v2-block{
+  margin-top: -3rem;
+}
+
+#index-wir-sind-dabei .summary-excerpt{
+  font-family: "Gentium Basic", serif;
+  color: $orange;
+  font-size: 1.4rem;
+}
+
+#index-wir-sind-dabei .summary-v2-block {
+  margin-top: -5rem;
+}
 
