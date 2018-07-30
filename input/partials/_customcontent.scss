@@ -20,6 +20,12 @@
 }
 
 
+/* downarrow for slidetoggles */ 
+.downarrow:before {
+  content: "\f0d7 ";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
 
 /* images overlay; */
 
@@ -50,11 +56,6 @@
 
 .disable-hover {
   pointer-events: none;
-}
-
-
-html {
-  border-left: 2rem solid gray;
 }
 
 
