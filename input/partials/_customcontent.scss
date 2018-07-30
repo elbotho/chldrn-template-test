@@ -22,9 +22,9 @@
 
 /* downarrow for slidetoggles */ 
 .downarrow:before {
-  content: "\f0d7 ";
+  content: "\f0d7";
+  margin-right: 0.2em;
   font-family: "Font Awesome 5 Free";
-  font-weight: 900;
 }
 
 /* images overlay; */
@@ -58,7 +58,7 @@
   pointer-events: none;
 }
 
-
+    
 /* HOME */
 
 #index-aktuelles .summary-v2-block{
