@@ -5,6 +5,9 @@ $orange50: #f9bd88;
 $footerGray: #f4f2f2;
 
 
+$sec-nav-height: 2rem;
+
+
 @import 'partials/typo';
 @import 'partials/structure';
 
@@ -12,7 +15,6 @@ $footerGray: #f4f2f2;
 @import 'partials/footer';
 @import 'partials/header';
 @import 'partials/newsletter';
-@import 'partials/searchbar';
 @import 'partials/mobilemenu';
 @import 'partials/aktuelles';
 @import 'partials/customcontent';

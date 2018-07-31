@@ -4,53 +4,67 @@
 /* ============================================================= */
 /* ============================================================= */
 
+$sec-nav-height: 2rem;
+$sec-nav-font-size: 0.87rem;
+@import 'searchbar';
+
 
 .Header-branding-logo {
 	max-width: auto;
-	width: 11rem;
+	width: 12rem;
 }
 
+
+.Header-inner--top {
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 8rem;
+}
+
+.Header--bottom .Header-inner.Header-inner--bottom {
+	padding-top:0;
+}
 
 .Header div[data-nc-container="bottom-right"] {
 	background-color: $orange;
 	position: absolute;
-	top: -10.31rem;
+	top: -10rem;
 	width:100%;
+	height: $sec-nav-height;
 }
-
 
 @media screen and (min-width: 1240px) {
 	body {
 		margin-top: 0 !important;
-		border-top: 1.8rem solid $orange;
+		border-top: $sec-nav-height solid $orange;
 	}
 	.Header div[data-nc-container="bottom-right"] {
 		position: relative !important;
-    	top: -11.17em !important;		
 	}
 }
 
 .Header-nav--secondary .Header-nav-inner {
-	margin: 0;
+	margin: 0 !important;
 	padding-right:1rem;
 }
 
 .Header.Header--bottom .Header-nav--secondary{
-	height: 1.8rem;
+	height: $sec-nav-height;
 	line-height: 2.4rem;
-	font-size: 0.85rem !important;
+	font-size: $sec-nav-font-size !important;
 	font-weight: normal !important;
 }
 
 body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secondary-nav-inherit-styles) .Header-nav--secondary .Header-nav-item {
+	height: 2rem;
+    line-height: 1.6rem;
+	margin-left: 1rem;
+	
 	color: #fff !important;
 	font-size: 0.85rem;
 	font-weight: bold;
 	letter-spacing: 0;
 	opacity: 0.75;
-	padding: 0;
-	margin:0;
-	margin-left: 1rem;
 }
 
 body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secondary-nav-inherit-styles)
@@ -74,19 +88,19 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 
 .Header-nav--secondary .Header-nav-item[href$="downloads/"]::before,
 .Mobile-overlay-nav-item[href$="downloads/"]::before {
-  content: "\f358"; /*arrow down*/
+  content: '\f358'; /*arrow down*/
 }
 .Header-nav--secondary .Header-nav-item[href$="presse/"]::before,
 .Mobile-overlay-nav-item[href$="presse/"]::before {
-  content: "\f0a1"; /*bullhorn*/
+  content: '\f0a1'; /*bullhorn*/
 }
 .Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before,
 .Mobile-overlay-nav-item[href$="kontakt/"]::before {
-  content: "\f086"; /*comments*/
+  content: '\f086'; /*comments*/
 }
 .Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before,
 .Mobile-overlay-nav-item[href$="aktuelles/"]::before {
-  content: "\f0f3"; /**/
+  content: '\f0f3'; /**/
 }
 
 
@@ -108,11 +122,11 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
 }
 
 
-.Header-nav .Header-nav-inner{
+.Header-nav--primary .Header-nav .Header-nav-inner{
 	margin-top: 0.5rem;
 }
 
-.Header-nav .Header-nav-folder-item{
+.Header-nav--primary .Header-nav .Header-nav-folder-item{
 	// color: rgba(255,255,255,0.6);
 }
 

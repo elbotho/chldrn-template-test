@@ -10,7 +10,7 @@
 
 .Site-inner .Header .Header-search .Header-search-form{
 	background-color: rgba(255,255,255,0.2);
-	height: 1.8rem;
+	height: $sec-nav-height;
 	padding: 0;
 	width: 8rem;
 	border-radius: 0;
@@ -20,14 +20,15 @@
 	margin: 0;
 	padding: 0;
 	width: 6rem;
-	height: 1.7rem;
+	height: $sec-nav-height;
+	padding-top: .05rem;
+
 	font-family: 'Overpass', sans-serif;
-	font-size: 0.85rem;
+	font-size: $sec-nav-font-size;
 	color: #fff;
 	opacity: 0.7;
 }
 .Site-inner .Header .Header-search .Header-search-form-submit{
-	margin-top:-6px;
 	margin-right: .3rem;
 	opacity: 0.6;
 }
