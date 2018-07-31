@@ -544,31 +544,23 @@ footer.Footer::before {
   }
 }
 
-/* ============================================================= */
-/* ============================================================= */
-/* HEADER */
-/* ============================================================= */
-/* ============================================================= */
-/* =================================================== */
-/* =================================================== */
-/* SEARCHBAR *	/
-/* =================================================== */
-/* =================================================== */
-/* line 7, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* header and navs */
+/* searchbar */
+/* line 2, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search {
   padding: 0;
 }
 
-/* line 11, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* line 6, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search .Header-search-form {
-  background-color: rgba(255, 255, 255, 0.2);
   height: 2rem;
   padding: 0;
   width: 8rem;
   border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 19, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* line 14, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search .Header-search-form input {
   margin: 0;
   padding: 0;
@@ -582,78 +574,73 @@ footer.Footer::before {
   opacity: 0.7;
 }
 
-/* line 32, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
-.Site-inner .Header .Header-search .Header-search-form-submit {
+/* line 26, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.Site-inner .Header .Header-search .Header-search-form input:active, .Site-inner .Header .Header-search .Header-search-form input:focus {
+  opacity: 1;
+}
+
+/* line 31, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.Site-inner .Header .Header-search .Header-search-form .Header-search-form-submit {
   padding-right: .4rem;
   margin-top: -0.25rem;
   opacity: 0.6;
   height: 2rem;
 }
 
-/* line 39, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
-.Header-search .Icon--search--small {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
-/* line 44, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
-.Site-inner .Header .Header-search-form:hover .Header-search-form-submit {
+/* line 38, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.Site-inner .Header .Header-search .Header-search-form:hover .Header-search-form-submit {
   opacity: 1;
 }
 
-/* line 48, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
-.Site-inner .Header .Header-search .Header-search-form:hover input, .Site-inner .Header .Header-search .Header-search-form input:active, .Site-inner .Header .Header-search .Header-search-form input:focus {
-  opacity: 1;
-}
-
-/* line 52, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* line 43, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search .Header-search-form input::-webkit-input-placeholder {
   color: #fff;
 }
 
-/* line 55, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* line 44, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search .Header-search-form input::-moz-placeholder {
   color: #fff;
 }
 
-/* line 58, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* line 45, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search .Header-search-form input:-ms-input-placeholder {
   color: #fff;
 }
 
-/* line 61, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* line 46, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search .Header-search-form input:-moz-placeholder {
   color: #fff;
 }
 
-/* search page */
-/* line 68, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+/* line 48, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.Site-inner .Header .Header-search .Icon--search--small {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* search results */
+/* line 55, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .sqs-search-page-output .search-result em {
-  background: #f69e64;
+  background: #ee7203;
   color: #fff;
   font-family: Overpass, sans-serif;
   font-style: normal;
 }
 
-/* line 12, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 9, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-branding-logo {
   max-width: auto;
   width: 12rem;
 }
 
-/* line 18, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 14, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-inner--top {
   padding-top: 0;
   padding-bottom: 0;
   height: 8rem;
 }
 
-/* line 24, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header--bottom .Header-inner.Header-inner--bottom {
-  padding-top: 0;
-}
-
-/* line 28, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 20, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header div[data-nc-container="bottom-right"] {
   background-color: #ee7203;
   position: absolute;
@@ -663,24 +650,23 @@ footer.Footer::before {
 }
 
 @media screen and (min-width: 1240px) {
-  /* line 37, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+  /* line 29, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
   body {
     margin-top: 0 !important;
     border-top: 2rem solid #ee7203;
   }
-  /* line 41, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+  /* line 33, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
   .Header div[data-nc-container="bottom-right"] {
     position: relative !important;
   }
 }
 
-/* line 46, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--secondary .Header-nav-inner {
-  margin: 0 !important;
-  padding-right: 1rem;
+/* line 38, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header--bottom .Header-inner.Header-inner--bottom {
+  padding-top: 0;
 }
 
-/* line 51, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 42, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header.Header--bottom .Header-nav--secondary {
   height: 2rem;
   line-height: 2.4rem;
@@ -688,11 +674,18 @@ footer.Footer::before {
   font-weight: normal !important;
 }
 
-/* line 58, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secondary-nav-inherit-styles) .Header-nav--secondary .Header-nav-item {
+/* line 48, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header.Header--bottom .Header-nav--secondary .Header-nav-inner {
+  margin: 0 !important;
+  padding-right: 1rem;
+}
+
+/* line 53, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header.Header--bottom .Header-nav--secondary .Header-nav-item {
   height: 2rem;
   line-height: 1.4rem;
-  padding: 0;
+  padding: 0 !important;
+  margin: 0 !important;
   margin-left: 0.6rem;
   color: #fff !important;
   font-size: 0.85rem;
@@ -701,13 +694,13 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
   opacity: 0.75;
 }
 
-/* line 71, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secondary-nav-inherit-styles)
-.Header-nav--secondary .Header-nav-item:hover {
-  opacity: 1;
+/* line 65, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header.Header--bottom .Header-nav--secondary .Header-nav-item:hover {
+  opacity: 1 !important;
 }
 
-/* line 76, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* secondary nav icons */
+/* line 73, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item::before,
 .Mobile-overlay-nav-item::before {
   display: inline-block;
@@ -721,76 +714,71 @@ body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secon
   color: #f9bd88;
 }
 
-/* line 90, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--secondary .Header-nav-item[href$="downloads/"]::before,
-.Mobile-overlay-nav-item[href$="downloads/"]::before {
+/* line 87, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--secondary .Header-nav-item[href$="downloads/"]::before, .Mobile-overlay-nav-item[href$="downloads/"]::before {
   content: '\f358';
   /*arrow down*/
 }
 
-/* line 94, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--secondary .Header-nav-item[href$="presse/"]::before,
-.Mobile-overlay-nav-item[href$="presse/"]::before {
+/* line 90, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--secondary .Header-nav-item[href$="presse/"]::before, .Mobile-overlay-nav-item[href$="presse/"]::before {
   content: '\f0a1';
   /*bullhorn*/
 }
 
-/* line 98, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before,
-.Mobile-overlay-nav-item[href$="kontakt/"]::before {
+/* line 93, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before, .Mobile-overlay-nav-item[href$="kontakt/"]::before {
   content: '\f086';
   /*comments*/
 }
 
-/* line 102, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before,
-.Mobile-overlay-nav-item[href$="aktuelles/"]::before {
+/* line 96, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before, .Mobile-overlay-nav-item[href$="aktuelles/"]::before {
   content: '\f0f3';
-  /**/
+  /*dialog?*/
 }
 
-/* PRIMARY */
-/* line 110, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav {
+/* primary nav */
+/* line 103, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary {
   white-space: inherit;
 }
 
+/* line 107, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary .Header-nav .Header-nav-inner {
+  margin-top: 0.5rem;
+}
+
+/* line 110, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item {
+  font-family: 'Overpass', sans-serif;
+  font-size: .9rem;
+}
+
 /* line 114, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav-folder {
+.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item[href="/"] {
+  display: none;
+}
+
+/* line 118, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover, .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item:hover {
+  color: #ee7203;
+}
+
+/* line 123, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-folder {
   border-radius: .5rem;
   margin-left: -0.75rem;
   padding: .6rem;
   padding-bottom: 0.31rem;
 }
 
-/* line 121, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav-folder a.Header-nav-folder-item:first-child {
+/* line 129, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-folder a.Header-nav-folder-item:first-child {
   display: none;
 }
 
-/* line 126, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav .Header-nav-inner {
-  margin-top: 0.5rem;
-}
-
-/* line 134, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav-inner .Header-nav-item:hover,
-.Header-nav--primary .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover {
-  color: #ee7203;
-}
-
-/* line 140, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav-inner .Header-nav-item {
-  font-family: 'Overpass', sans-serif;
-  font-size: .9rem;
-}
-
-/* line 145, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav-item[href="/"] {
-  display: none;
-}
-
-/* spenden button in buttons */
+/* > spenden button in buttons */
 /* =================================================== */
 /* =================================================== */
 /* NEWSLETTER */
@@ -1205,14 +1193,14 @@ h1.BlogItem-title {
 /* Index Gallery */
 /* ============================================================= */
 /* ============================================================= */
-/* line 37, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 33, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery-item-image, .tweak-index-gallery-layout-slideshow .Index-gallery-wrapper,
 figure,
 .Intro--has-image {
   background-color: transparent !important;
 }
 
-/* line 44, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 40, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Index-gallery figure.Index-gallery-item-image::before,
 .Intro.Intro--has-image .Intro-image::before {
   content: ' ';
@@ -1226,7 +1214,7 @@ figure,
   background: linear-gradient(to bottom, transparent 5%, rgba(0, 0, 0, 0.7) 100%);
 }
 
-/* line 58, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
+/* line 54, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/main.scss */
 .Intro.Intro--has-image .Intro-image::before {
   z-index: 1;
   opacity: 0.7;

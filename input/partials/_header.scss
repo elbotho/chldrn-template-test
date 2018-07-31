@@ -1,8 +1,5 @@
-/* ============================================================= */
-/* ============================================================= */
-/* HEADER */
-/* ============================================================= */
-/* ============================================================= */
+
+/* header and navs */
 
 $sec-nav-height: 2rem;
 $sec-nav-font-size: 0.87rem;
@@ -10,141 +7,135 @@ $sec-nav-font-size: 0.87rem;
 
 
 .Header-branding-logo {
-	max-width: auto;
-	width: 12rem;
+    max-width: auto;
+    width: 12rem;
 }
-
 
 .Header-inner--top {
-	padding-top: 0;
-	padding-bottom: 0;
-	height: 8rem;
-}
-
-.Header--bottom .Header-inner.Header-inner--bottom {
-	padding-top:0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 8rem;
 }
 
 .Header div[data-nc-container="bottom-right"] {
-	background-color: $orange;
-	position: absolute;
-	top: -10rem;
-	width:100%;
-	height: $sec-nav-height;
+    background-color: $orange;
+    position: absolute;
+    top: -10rem;
+    width:100%;
+    height: $sec-nav-height;
 }
 
 @media screen and (min-width: 1240px) {
-	body {
-		margin-top: 0 !important;
-		border-top: $sec-nav-height solid $orange;
-	}
-	.Header div[data-nc-container="bottom-right"] {
-		position: relative !important;
-	}
+    body {
+        margin-top: 0 !important;
+        border-top: $sec-nav-height solid $orange;
+    }
+    .Header div[data-nc-container="bottom-right"] {
+        position: relative !important;
+    }
 }
 
-.Header-nav--secondary .Header-nav-inner {
-	margin: 0 !important;
-	padding-right:1rem;
+.Header--bottom .Header-inner.Header-inner--bottom {
+    padding-top:0;
 }
 
-.Header.Header--bottom .Header-nav--secondary{
-	height: $sec-nav-height;
-	line-height: 2.4rem;
-	font-size: $sec-nav-font-size !important;
-	font-weight: normal !important;
+.Header.Header--bottom .Header-nav--secondary {
+    height: $sec-nav-height;
+    line-height: 2.4rem;
+    font-size: $sec-nav-font-size !important;
+    font-weight: normal !important;
+
+    .Header-nav-inner {
+        margin: 0 !important;
+        padding-right:1rem;
+    }
+
+    .Header-nav-item {
+        height: 2rem;
+        line-height: 1.4rem;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-left: 0.6rem;
+        
+        color: #fff !important;
+        font-size: 0.85rem;
+        font-weight: bold;
+        letter-spacing: 0;
+        opacity: 0.75;
+        &:hover {
+            opacity: 1 !important;
+        }
+    }
 }
 
-body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secondary-nav-inherit-styles) .Header-nav--secondary .Header-nav-item {
-	height: 2rem;
-    line-height: 1.4rem;
-  	padding: 0;
-	margin-left: 0.6rem;
-	
-	color: #fff !important;
-	font-size: 0.85rem;
-	font-weight: bold;
-	letter-spacing: 0;
-	opacity: 0.75;
-}
 
-body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secondary-nav-inherit-styles)
-.Header-nav--secondary .Header-nav-item:hover {
-	opacity: 1;
-}
-
+/* secondary nav icons */
 .Header-nav--secondary .Header-nav-item::before,
 .Mobile-overlay-nav-item::before
  {
-	display: inline-block;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	margin-right: 0.3rem;
-	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
-	color: $orange50;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 0.3rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: $orange50;
 }
 
-.Header-nav--secondary .Header-nav-item[href$="downloads/"]::before,
-.Mobile-overlay-nav-item[href$="downloads/"]::before {
-  content: '\f358'; /*arrow down*/
+.Header-nav--secondary .Header-nav-item[href$="downloads/"]::before, .Mobile-overlay-nav-item[href$="downloads/"]::before {
+    content: '\f358'; /*arrow down*/
 }
-.Header-nav--secondary .Header-nav-item[href$="presse/"]::before,
-.Mobile-overlay-nav-item[href$="presse/"]::before {
-  content: '\f0a1'; /*bullhorn*/
+.Header-nav--secondary .Header-nav-item[href$="presse/"]::before, .Mobile-overlay-nav-item[href$="presse/"]::before {
+    content: '\f0a1'; /*bullhorn*/
 }
-.Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before,
-.Mobile-overlay-nav-item[href$="kontakt/"]::before {
-  content: '\f086'; /*comments*/
+.Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before, .Mobile-overlay-nav-item[href$="kontakt/"]::before {
+    content: '\f086'; /*comments*/
 }
-.Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before,
-.Mobile-overlay-nav-item[href$="aktuelles/"]::before {
-  content: '\f0f3'; /**/
+.Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before, .Mobile-overlay-nav-item[href$="aktuelles/"]::before {
+    content: '\f0f3'; /*dialog?*/
 }
 
 
-/* PRIMARY */
+/* primary nav */
 
-.Header-nav {
-	white-space: inherit;
+.Header-nav--primary  {
+
+    white-space: inherit;
+
+    .Header-nav .Header-nav-inner{
+        margin-top: 0.5rem;
+
+        .Header-nav-item {
+            font-family: 'Overpass', sans-serif;
+            font-size: .9rem;
+
+            &[href="/"]{  
+                display: none;
+            }
+
+            .Header-nav-folder-item:hover, &:hover {
+                color: $orange;
+            }
+        }
+
+        .Header-nav-folder {
+            border-radius: .5rem;
+            margin-left: -0.75rem;
+            padding: .6rem;
+            padding-bottom: 0.31rem;
+
+            a.Header-nav-folder-item:first-child {
+                display: none;
+            }
+
+            .Header-nav-folder-item{
+                // color: rgba(255,255,255,0.6);
+            }
+        }
+    }  
 }
 
-.Header-nav--primary .Header-nav-folder {
-	border-radius: .5rem;
-    margin-left: -0.75rem;
-    padding: .6rem;
-	padding-bottom: 0.31rem;
-}
 
-.Header-nav--primary .Header-nav-folder a.Header-nav-folder-item:first-child {
-	display: none;
-}
-
-
-.Header-nav--primary .Header-nav .Header-nav-inner{
-	margin-top: 0.5rem;
-}
-
-.Header-nav--primary .Header-nav .Header-nav-folder-item{
-	// color: rgba(255,255,255,0.6);
-}
-
-.Header-nav--primary .Header-nav-inner .Header-nav-item:hover,
-.Header-nav--primary .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover {
-	color: $orange;
-}
-
-
-.Header-nav--primary .Header-nav-inner .Header-nav-item {
-	font-family: 'Overpass', sans-serif;
-	font-size: .9rem;
-}
-
-.Header-nav--primary .Header-nav-item[href="/"]{
-	
-	display: none;
-}
-
-/* spenden button in buttons */
+/* > spenden button in buttons */

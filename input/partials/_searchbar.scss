@@ -1,72 +1,59 @@
-/* =================================================== */
-/* =================================================== */
-/* SEARCHBAR *	/
-/* =================================================== */
-/* =================================================== */
-
+/* searchbar */
 .Site-inner .Header .Header-search {
-	padding: 0;
+
+    padding: 0;
+
+    .Header-search-form {
+        
+        height: $sec-nav-height;
+        padding: 0;
+        width: 8rem;
+        border-radius: 0;
+        background-color: rgba(255,255,255,0.2);
+        
+        input{
+            margin: 0;
+            padding: 0;
+            width: 5.7rem;
+            height: $sec-nav-height - .05rem ;
+            padding-top: .05rem;
+            padding-left: .3rem;
+            font-family: 'Overpass', sans-serif;
+            font-size: $sec-nav-font-size;
+            color: #fff;
+            opacity: 0.7;
+
+            &:active, &:focus{
+                opacity: 1;
+            }
+        }
+
+        .Header-search-form-submit{
+            padding-right: .4rem;
+            margin-top: -0.25rem;
+            opacity: 0.6;
+            height: 2rem;
+        }
+
+        &:hover .Header-search-form-submit{
+            opacity: 1;
+        }
+    }
+
+    .Header-search-form input::-webkit-input-placeholder { color: #fff; }
+    .Header-search-form input::-moz-placeholder { color: #fff; }
+    .Header-search-form input:-ms-input-placeholder { color: #fff; }
+    .Header-search-form input:-moz-placeholder { color: #fff; }
+
+    .Icon--search--small {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
 }
 
-.Site-inner .Header .Header-search .Header-search-form{
-	background-color: rgba(255,255,255,0.2);
-	height: $sec-nav-height;
-	padding: 0;
-	width: 8rem;
-	border-radius: 0;
-}
-
-.Site-inner .Header .Header-search .Header-search-form input{
-	margin: 0;
-	padding: 0;
-	width: 5.7rem;
-	height: $sec-nav-height - .05rem ;
-	padding-top: .05rem;
-	padding-left: .3rem;
-	font-family: 'Overpass', sans-serif;
-	font-size: $sec-nav-font-size;
-	color: #fff;
-	opacity: 0.7;
-}
-
-.Site-inner .Header .Header-search .Header-search-form-submit{
-    padding-right: .4rem;
-    margin-top: -0.25rem;
-    opacity: 0.6;
-    height: 2rem;
-}
-
-.Header-search .Icon--search--small {
-    width: 1.2rem;
-    height: 1.2rem;
-}
-
-.Site-inner .Header .Header-search-form:hover .Header-search-form-submit{
-	opacity: 1;
-}
-
-.Site-inner .Header .Header-search .Header-search-form:hover input, .Site-inner .Header .Header-search .Header-search-form input:active, .Site-inner .Header .Header-search .Header-search-form input:focus{
-	opacity: 1;
-}
-
-.Site-inner .Header .Header-search .Header-search-form input::-webkit-input-placeholder {
-  color: #fff;
-}
-.Site-inner .Header .Header-search .Header-search-form input::-moz-placeholder {
-  color: #fff;
-}
-.Site-inner .Header .Header-search .Header-search-form input:-ms-input-placeholder {
-  color: #fff;
-}
-.Site-inner .Header .Header-search .Header-search-form input:-moz-placeholder {
-  color: #fff;
-}
-
-
-
-/* search page */
+/* search results */
 .sqs-search-page-output .search-result em {
-	background: #f69e64;
+    background: $orange;
     color: #fff;
     font-family: Overpass, sans-serif;
     font-style: normal;
