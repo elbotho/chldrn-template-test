@@ -57,8 +57,9 @@ $sec-nav-font-size: 0.87rem;
 
 body:not(.tweak-header-secondary-nav-hover-style-button):not(.tweak-header-secondary-nav-inherit-styles) .Header-nav--secondary .Header-nav-item {
 	height: 2rem;
-    line-height: 1.6rem;
-	margin-left: 1rem;
+    line-height: 1.4rem;
+  	padding: 0;
+	margin-left: 0.6rem;
 	
 	color: #fff !important;
 	font-size: 0.85rem;

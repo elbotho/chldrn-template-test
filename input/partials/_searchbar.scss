@@ -19,18 +19,26 @@
 .Site-inner .Header .Header-search .Header-search-form input{
 	margin: 0;
 	padding: 0;
-	width: 6rem;
-	height: $sec-nav-height;
+	width: 5.7rem;
+	height: $sec-nav-height - .05rem ;
 	padding-top: .05rem;
-
+	padding-left: .3rem;
 	font-family: 'Overpass', sans-serif;
 	font-size: $sec-nav-font-size;
 	color: #fff;
 	opacity: 0.7;
 }
+
 .Site-inner .Header .Header-search .Header-search-form-submit{
-	margin-right: .3rem;
-	opacity: 0.6;
+    padding-right: .4rem;
+    margin-top: -0.25rem;
+    opacity: 0.6;
+    height: 2rem;
+}
+
+.Header-search .Icon--search--small {
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 .Site-inner .Header .Header-search-form:hover .Header-search-form-submit{
@@ -53,7 +61,6 @@
 .Site-inner .Header .Header-search .Header-search-form input:-moz-placeholder {
   color: #fff;
 }
-
 
 
 
