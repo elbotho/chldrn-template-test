@@ -569,9 +569,9 @@ footer.Footer::before {
   padding-top: .05rem;
   padding-left: .3rem;
   font-family: 'Overpass', sans-serif;
-  font-size: 0.87rem;
+  font-size: 0.9rem;
   color: #fff;
-  opacity: 0.7;
+  opacity: .7;
 }
 
 /* line 26, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
@@ -582,8 +582,8 @@ footer.Footer::before {
 /* line 31, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
 .Site-inner .Header .Header-search .Header-search-form .Header-search-form-submit {
   padding-right: .4rem;
-  margin-top: -0.25rem;
-  opacity: 0.6;
+  margin-top: -.25rem;
+  opacity: .6;
   height: 2rem;
 }
 
@@ -670,7 +670,7 @@ footer.Footer::before {
 .Header.Header--bottom .Header-nav--secondary {
   height: 2rem;
   line-height: 2.4rem;
-  font-size: 0.87rem !important;
+  font-size: 0.9rem !important;
   font-weight: normal !important;
 }
 
@@ -685,22 +685,21 @@ footer.Footer::before {
   height: 2rem;
   line-height: 1.4rem;
   padding: 0 !important;
-  margin: 0 !important;
-  margin-left: 0.6rem;
+  margin: 0 0 0 .6rem !important;
   color: #fff !important;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: bold;
   letter-spacing: 0;
-  opacity: 0.75;
+  opacity: .75;
 }
 
-/* line 65, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 64, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header.Header--bottom .Header-nav--secondary .Header-nav-item:hover {
   opacity: 1 !important;
 }
 
 /* secondary nav icons */
-/* line 73, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 72, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item::before,
 .Mobile-overlay-nav-item::before {
   display: inline-block;
@@ -714,66 +713,66 @@ footer.Footer::before {
   color: #f9bd88;
 }
 
-/* line 87, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 86, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="downloads/"]::before, .Mobile-overlay-nav-item[href$="downloads/"]::before {
   content: '\f358';
   /*arrow down*/
 }
 
-/* line 90, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 89, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="presse/"]::before, .Mobile-overlay-nav-item[href$="presse/"]::before {
   content: '\f0a1';
   /*bullhorn*/
 }
 
-/* line 93, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 92, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="kontakt/"]::before, .Mobile-overlay-nav-item[href$="kontakt/"]::before {
   content: '\f086';
   /*comments*/
 }
 
-/* line 96, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 95, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--secondary .Header-nav-item[href$="aktuelles/"]::before, .Mobile-overlay-nav-item[href$="aktuelles/"]::before {
   content: '\f0f3';
   /*dialog?*/
 }
 
 /* primary nav */
-/* line 103, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 102, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary {
   white-space: inherit;
 }
 
-/* line 107, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 106, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav .Header-nav-inner {
   margin-top: 0.5rem;
 }
 
-/* line 110, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 109, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item {
   font-family: 'Overpass', sans-serif;
   font-size: .9rem;
 }
 
-/* line 114, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 113, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item[href="/"] {
   display: none;
 }
 
-/* line 118, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 117, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover, .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item:hover {
   color: #ee7203;
 }
 
-/* line 123, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 122, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-folder {
   border-radius: .5rem;
-  margin-left: -0.75rem;
+  margin-left: -.75rem;
   padding: .6rem;
-  padding-bottom: 0.31rem;
+  padding-bottom: .31rem;
 }
 
-/* line 129, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
+/* line 128, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
 .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-folder a.Header-nav-folder-item:first-child {
   display: none;
 }

@@ -2,7 +2,7 @@
 /* header and navs */
 
 $sec-nav-height: 2rem;
-$sec-nav-font-size: 0.87rem;
+$sec-nav-font-size: .9rem;
 @import 'searchbar';
 
 
@@ -54,14 +54,13 @@ $sec-nav-font-size: 0.87rem;
         height: 2rem;
         line-height: 1.4rem;
         padding: 0 !important;
-        margin: 0 !important;
-        margin-left: 0.6rem;
+        margin: 0 0 0 .6rem !important;
         
         color: #fff !important;
-        font-size: 0.85rem;
+        font-size: $sec-nav-font-size;
         font-weight: bold;
         letter-spacing: 0;
-        opacity: 0.75;
+        opacity: .75;
         &:hover {
             opacity: 1 !important;
         }
@@ -122,16 +121,16 @@ $sec-nav-font-size: 0.87rem;
 
         .Header-nav-folder {
             border-radius: .5rem;
-            margin-left: -0.75rem;
+            margin-left: -.75rem;
             padding: .6rem;
-            padding-bottom: 0.31rem;
+            padding-bottom: .31rem;
 
             a.Header-nav-folder-item:first-child {
                 display: none;
             }
 
             .Header-nav-folder-item{
-                // color: rgba(255,255,255,0.6);
+                // color: rgba(255,255,255,.6);
             }
         }
     }  

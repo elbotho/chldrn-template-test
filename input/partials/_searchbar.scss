@@ -21,7 +21,7 @@
             font-family: 'Overpass', sans-serif;
             font-size: $sec-nav-font-size;
             color: #fff;
-            opacity: 0.7;
+            opacity: .7;
 
             &:active, &:focus{
                 opacity: 1;
@@ -30,8 +30,8 @@
 
         .Header-search-form-submit{
             padding-right: .4rem;
-            margin-top: -0.25rem;
-            opacity: 0.6;
+            margin-top: -.25rem;
+            opacity: .6;
             height: 2rem;
         }
 
