@@ -744,28 +744,28 @@ footer.Footer::before {
 }
 
 /* line 106, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav .Header-nav-inner {
+.Header-nav--primary .Header-nav-inner {
   margin-top: 0.5rem;
 }
 
 /* line 109, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item {
+.Header-nav--primary .Header-nav-inner .Header-nav-item {
   font-family: 'Overpass', sans-serif;
   font-size: .9rem;
 }
 
 /* line 113, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item[href="/"] {
+.Header-nav--primary .Header-nav-inner .Header-nav-item[href="/"] {
   display: none;
 }
 
 /* line 117, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover, .Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-item:hover {
+.Header-nav--primary .Header-nav-inner .Header-nav-item .Header-nav-folder-item:hover, .Header-nav--primary .Header-nav-inner .Header-nav-item:hover {
   color: #ee7203;
 }
 
 /* line 122, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-folder {
+.Header-nav--primary .Header-nav-inner .Header-nav-folder {
   border-radius: .5rem;
   margin-left: -.75rem;
   padding: .6rem;
@@ -773,7 +773,7 @@ footer.Footer::before {
 }
 
 /* line 128, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
-.Header-nav--primary .Header-nav .Header-nav-inner .Header-nav-folder a.Header-nav-folder-item:first-child {
+.Header-nav--primary .Header-nav-inner .Header-nav-folder a.Header-nav-folder-item:first-child {
   display: none;
 }
 
