@@ -3,9 +3,6 @@
 /* =================================================== */
 /* TYPO GLOBAL*/
 /* =================================================== */
-$h1size: 1.9rem;
-$h2size: 1.4rem;
-$h3size: 1.05rem;
 
 html {
 	font-size: 16px;
@@ -158,31 +155,6 @@ h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-al
 	margin-left: auto;
 	margin-right: 0;
 }
-
-.Index-page--has-image h1{
-	color: #fff;
-}
-
-.Index-gallery-item-content-heading,
-.Intro.Intro--has-image h2 {
-	font-family: "Overpass", sans-serif;
-	font-size: $h1size;
-	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
-	margin-bottom: 2rem;
-}
-
-.Intro.Intro--has-image h1, .Intro.Intro--has-image h2 {
-	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
-	text-transform: none;
-} 
-
-.Index-gallery-item-content-body p {
-	font-size: $h1size;
-	font-family: 'Gentium Basic', serif;
-	text-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
-	margin-bottom: 5rem;
-}
-
 
 
 // zitat

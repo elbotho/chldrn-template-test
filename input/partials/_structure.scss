@@ -46,8 +46,12 @@ body {
 	position: absolute;
 	display: block;
 	margin-top: -6rem;
-	height: 4rem;
-	z-index: 9999;
+	height: 7vw;
+	z-index: 2;
+
+	@media screen and (min-width: 1100px) {
+	    height: 4rem;
+	}
 }
 
 .Site .Intro--has-image {
@@ -55,12 +59,15 @@ body {
 }
 .Site .Intro--has-image+.Main--page::before{
 	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23fff"/></svg>');
-	margin-top: -4rem;
+	margin-top: -6.6vw;
+
+	@media screen and (min-width: 1100px) {
+    	margin-top: -4rem;
+	}
 }
 .Site .Intro.Intro--has-image+main.Main--page {
 	padding-top: 0;
 }
-
 
 
 .Site-inner main section:last-of-type {
