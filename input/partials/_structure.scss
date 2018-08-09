@@ -17,27 +17,49 @@ body {
 // }
 
 
+section.Index-page {
+	padding-top: 0.1rem;
+}
+
+.Index-page .Index-page-content {
+	margin-top: 4.5rem;
+}
 
 /* ROUND SECTION AFTER IMAGE // INDEX AND SITE */ 
 
-.Index-page.Index-page--has-image:nth-child(2){
+.Index-page.Index-page--has-image:nth-child(2),
+section.Index-page[id*="orange"]
+{
 	color: #fff;
-	padding: 2rem 0 2rem 0;
 	min-height: auto;
 	overflow: visible;
 	background-color: #ee7203;
+
+	@media screen and (min-width: 1100px) {
+    	padding: 2rem 0 2rem 0;
+	}
 }
 
-.Index-page.Index-page--has-image:nth-child(2) figure.Index-page-image{
+.Index-page.Index-page--has-image:nth-child(2) figure.Index-page-image,
+section.Index-page[id*="orange"] figure.Index-page-image
+{
 	display: none;
 }
 
-.Index-page.Index-page--has-image:nth-child(2) .Index-page-content {
+//.Index-page.Index-page--has-image:first-child+.Index-page.Index-page--has-image .Index-page-content
+.Index-page.Index-page--has-image:nth-child(2) .Index-page-content
+{
 	margin-top: 1rem;
 }
 
+.Index-page--has-image:first-child+.Index-page {
+	overflow: visible;
+}
+
+
 .Index-page.Index-page--has-image:nth-child(2)::before,
-.Site .Intro--has-image+.Main--page::before
+.Site .Intro--has-image+.Main--page::before,
+.Index-page.Index-page--has-image:first-child+.Index-page::before
  {
 	content: " ";
 	width: 100%;
@@ -45,19 +67,35 @@ body {
 	background-size: cover;
 	position: absolute;
 	display: block;
-	margin-top: -6rem;
+	margin-top: -6.6vw;
 	height: 7vw;
 	z-index: 2;
 
 	@media screen and (min-width: 1100px) {
 	    height: 4rem;
+    	margin-top: -6rem;
 	}
 }
 
-.Site .Intro--has-image {
+.Site .Intro--has-image
+ {
 	padding-bottom: 4rem;
 }
-.Site .Intro--has-image+.Main--page::before{
+
+
+.Index-page:first-child {
+	padding-top: 0;
+	margin-top: 0;
+}
+.Index-page--has-image:first-child+.Index-page .Index-page-content,
+ {
+	padding-top: 2rem;
+	margin-top: 0;
+}
+
+.Site .Intro--has-image+.Main--page::before,
+.Index-page.Index-page--has-image:first-child+.Index-page::before
+{
 	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23fff"/></svg>');
 	margin-top: -6.6vw;
 
@@ -65,10 +103,12 @@ body {
     	margin-top: -4rem;
 	}
 }
-.Site .Intro.Intro--has-image+main.Main--page {
+
+.Site .Intro.Intro--has-image+main.Main--page,
+.Index-page.Index-page--has-image:first-child+.Index-page
+{
 	padding-top: 0;
 }
-
 
 .Site-inner main section:last-of-type {
 	padding-bottom: 8rem;
@@ -80,33 +120,6 @@ body {
 // .tweak-index-page-fullscreen-pages-with-backgrounds-only .Index-page--has-image {
 // 	min-height: 4rem;
 // }
-
-section.Index-page[id$="spenden-childi"] {
-	background: $orange url("https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg") no-repeat;
-	}
-
-
-section.Index-page[id$="childi"] {
-	
-	background-color: $orange;
-    background-size: 7rem;
-    background-position: 100% 100%;
-
-    @media screen and (min-width: 875px) {
-    	background-size: 11rem;
-    	background-position: 85% 100%;
-    }
-    
-    @media screen and (min-width: 1300px) {
-    	background-size: 14rem;
-    	background-position: 70% 100%;
-    }
-
-	figure {
-		display: none;
-	}
-}
-
 
 
 

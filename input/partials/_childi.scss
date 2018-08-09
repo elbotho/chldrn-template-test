@@ -1,0 +1,49 @@
+
+section.Index-page[id$="spenden-childi"] {
+	// background: $orange url("https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg") no-repeat;
+	}
+
+section.Index-page[id*="childi"] {
+    
+    background-color: $orange;
+    padding: 0.1rem 0 0 0;
+
+    .Index-page-content {
+        padding: 3rem;
+        margin: 0 auto;
+    }
+
+    .image-block { 
+        max-width: 10rem;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 870px) {
+        .Index-page-content {
+            position: relative;
+        }
+
+        .image-block { 
+            position: absolute;
+            width: 10rem;
+        }
+
+        &[id*="rechts"] .image-block {
+            left: auto;
+            right: 0;
+        }
+        &[id*="oben"] .image-block {
+            bottom: auto;
+            top: 0;
+        }
+        &[id*="unten"] .image-block {
+            bottom: 0;
+            top: auto;
+        }
+    }
+    
+    .image-block-wrapper {
+        background-color: transparent;
+    }
+}
+

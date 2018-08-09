@@ -113,7 +113,7 @@ $sec-nav-font-size: .9rem;
 
         .Header-nav-item {
             font-family: 'Overpass', sans-serif;
-            font-size: .9rem;
+            font-size: $h3size;
 
             &[href="/"]{  
                 display: none;
@@ -143,3 +143,42 @@ $sec-nav-font-size: .9rem;
 
 
 /* > spenden button in buttons */
+
+
+
+
+/* fixed nav try */
+
+@media screen and (min-width: 740px){
+    %animate-all {
+        transition: .3s all ease-in-out;
+    }
+
+    .Header.Header--top, {
+        @extend %animate-all;
+        .Header-inner--top {
+            @extend %animate-all;
+        }
+        .Header-branding-logo {
+            @extend %animate-all;
+        }
+
+        &.fixed {
+            position: fixed;
+            top: 0;
+            z-index: 999;
+            width: 100%;
+            border-bottom: .2rem solid $footerGray;
+
+            .Header-inner--top {
+                height: 5rem;
+                font-size: 1rem;
+            }
+
+            .Header-branding-logo {
+                width: 8rem;
+            }
+        }
+    }
+}
+

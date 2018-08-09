@@ -116,6 +116,7 @@ h3, h4, blockquote {
 }
 
 .Index-page.Index-page--has-image h1 em, .Index-page.Index-page--has-image h2 em, .Index-page.Index-page--has-image h3 em,
+section.Index-page[id*="orange"] h1, section.Index-page[id*="orange"] h2, section.Index-page[id*="orange"] h3,
 .Index-page.Index-page--has-image blockquote {
 	color: #fff;
 }
@@ -137,7 +138,8 @@ h1 strong::after, h2 strong::after, h3 strong::after,
 
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after,
 .Intro.Intro--has-image h1 strong::after, .Intro.Intro--has-image h2 strong::after, .Intro.Intro--has-image h3 strong::after,
-.Index-page--has-image h1 strong::after, .Index-page--has-image h2 strong::after, .Index-page--has-image h3 strong::after
+.Index-page--has-image h1 strong::after, .Index-page--has-image h2 strong::after, .Index-page--has-image h3 strong::after,
+section.Index-page[id*="orange"] h1 strong::after, section.Index-page[id*="orange"] h2 strong::after, section.Index-page[id*="orange"] h3 strong::after
 {
 	background-color: #fff;
 }

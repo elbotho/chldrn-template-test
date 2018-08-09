@@ -4,6 +4,49 @@
 /* ============================================================= */
 /* ============================================================= */
 
+
+//all buttons
+a.sqs-block-button-element,
+.Mobile-overlay-nav--primary .Mobile-overlay-nav-item,
+.Header-nav--primary .Header-nav-item:last-child,
+.Mobile-overlay-folder a.Mobile-overlay-folder-item,
+input.button.sqs-system-button,
+.sqs-editable-button-font,
+.sqs-system-button
+ {
+	font-family: 'Overpass', sans-serif !important;
+	padding: .52em .8em .4em .8em !important; //maybe add other sizes than medium?	 padding: .4em 0.8em;
+	line-height: 1 !important;
+	border-radius: 5em !important;
+	
+	background-color: $orange !important;
+    color: #fff !important;
+
+    position: relative;
+    top: -0.12em;
+
+
+	// font-size: 1em !important;
+	// font-weight: bold;
+	// background-color: #fff;
+	// color: #ee7203;
+	// text-transform: uppercase;	
+}
+
+//for orange backgrounds
+.sqs-editable-button-color,
+section.Index-page[id*="orange"] .sqs-block-button-element,
+.Mobile-overlay-folder a.Mobile-overlay-folder-item,
+.Mobile-overlay-folder a.Mobile-overlay-folder-item,
+.lightbox-content input.button.sqs-system-button,
+ {
+    background-color: #fff !important;
+    color: $orange !important;
+}
+
+
+
+/*
 .sqs-block-button a.sqs-block-button-element {
 	font-family: 'Overpass', sans-serif !important;
 	font-size: 1rem;
@@ -44,7 +87,9 @@ body:not(.button-style-default) .sqs-editable-button, body:not(.button-style-def
 	color: #fff;
 }
 
-body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editable-button, body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editable-button-color {
+body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editable-button, body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editable-button-color,
+section.Index-page[id*="orange"] a.sqs-block-button-element.sqs-block-button-element--medium
+ {
     color:#ee7203;
     background-color: #fff;
     border-color: #fff;
@@ -64,7 +109,7 @@ body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editab
 .Header-nav--primary .Header-nav-inner .Header-nav-item:last-child{
     color: #fff;
     background-color: #ee7203;
-    font-size: 0.9rem;
+    font-size: $h3size;
     -webkit-transition: .1s opacity linear;
     -moz-transition: .1s opacity linear;
     -o-transition: .1s opacity linear;
@@ -74,4 +119,4 @@ body:not(.button-style-default) .sqs-alternate-block-style-container .sqs-editab
 .Header-nav--primary .Header-nav-inner .Header-nav-item:last-child:hover{
     color: #fff;
     opacity: 0.8;
-}
+}*/

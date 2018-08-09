@@ -2,7 +2,6 @@
 
 
 
-
 /* Presse Site */
 #collection-5b435631352f532eead7b5a9 .Main-content .form-block.sqs-block-form{
     background: #f69e64;
@@ -20,11 +19,16 @@
 }
 
 
-/* downarrow for slidetoggles */ 
-.downarrow:before {
-  content: "\f0d7";
-  margin-right: 0.2em;
-  font-family: "Font Awesome 5 Free";
+/* slidetoggles */ 
+
+.fold-toggle {
+  cursor: pointer;
+
+  &:before {
+    content: "\f0d7";
+    margin-right: 0.2em;
+    font-family: "Font Awesome 5 Free";
+  }
 }
 
 /* images overlay; */
@@ -75,3 +79,87 @@
   margin-top: -5rem;
 }
 
+
+
+
+/* Mehr Erfahren Blocks */
+
+section[id^="mehr"] .sqs-block-image .image-block-outer-wrapper.layout-caption-below.design-layout-inline {
+
+  background-color: fade-out($orange50,0.85);
+  border-radius: .3rem;
+  padding: 0 .5rem 1rem .5rem;
+  transition: all .3s linear;
+
+  &:hover { background-color: $orange50; }
+
+  .image-block-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent !important;
+
+    img {
+      display: none !important;
+    }
+  }
+
+  .image-caption-wrapper {
+    background-color: transparent !important;
+  }
+
+  .image-caption {
+    
+    p{
+      font-size: 1rem;
+      color: #333;
+      text-align: center;
+
+      a {
+        border: 0;
+      }
+
+      strong{
+        text-decoration: none;
+        border-color: $orange;
+        font-size: $h3size;
+        transition: all .3s linear;
+
+        &:after {
+            content: ' ';
+            display: block;
+            margin: 0.3rem auto -1.1em auto;
+            width: 4em;
+            height: .25em;
+            background-color: $orange;
+            transition: all .3s linear;
+        }
+      }
+
+      em {
+        // box-sizing: border-box;
+        padding-top: 1rem;
+        font-family: "Font Awesome 5 Free";
+        font-size: 5rem;
+        text-align: center;
+        line-height: 1;
+        display: block;
+        color: $orange;
+        transition: all .3s linear;
+      }
+    }
+  }
+  // &:hover {
+  //   .image-caption em {
+  //     color: $orange;
+  //   }
+  //   .image-caption p strong {
+  //     // color: #fff;
+  //     &:after {
+  //       // background-color: #fff;
+  //     }
+  //   }
+  // }
+}
