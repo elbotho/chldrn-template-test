@@ -114,6 +114,7 @@ $sec-nav-font-size: .9rem;
         .Header-nav-item {
             font-family: 'Overpass', sans-serif;
             font-size: $h3size;
+            letter-spacing: .02rem;
 
             &[href="/"]{  
                 display: none;

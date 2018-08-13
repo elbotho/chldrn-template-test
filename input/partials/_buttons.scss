@@ -12,7 +12,8 @@ a.sqs-block-button-element,
 .Mobile-overlay-folder a.Mobile-overlay-folder-item,
 input.button.sqs-system-button,
 .sqs-editable-button-font,
-.sqs-system-button
+.sqs-system-button,
+#sqsp-cookie-banner-accept
  {
 	font-family: 'Overpass', sans-serif !important;
 	padding: .52em .8em .4em .8em !important; //maybe add other sizes than medium?	 padding: .4em 0.8em;
@@ -25,6 +26,7 @@ input.button.sqs-system-button,
     position: relative;
     top: -0.12em;
 
+    letter-spacing: .02rem;
 
 	// font-size: 1em !important;
 	// font-weight: bold;
