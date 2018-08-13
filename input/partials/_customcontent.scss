@@ -66,19 +66,15 @@
     
 /* HOME */
 
-#index-aktuelles .summary-v2-block{
-  margin-top: -3rem;
-}
-
 #index-wir-sind-dabei .summary-excerpt{
   font-family: "Gentium Basic", serif;
   color: $orange;
   font-size: 1.4rem;
 }
 
-#index-wir-sind-dabei .summary-v2-block {
-  margin-top: -5rem;
-}
+// #index-wir-sind-dabei .summary-v2-block {
+//   margin-top: -5rem;
+// }
 
 
 
@@ -197,4 +193,10 @@ section[id*="nolink"]{
     display: none;
   }
 
+}
+
+/* Summary Blocks general */
+
+.summary-v2-block{
+  margin-top: -4rem;
 }
