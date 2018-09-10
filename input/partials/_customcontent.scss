@@ -1,5 +1,10 @@
 
 
+/* editor change */
+
+.sqs-create-link-content.condensed .existing-content-link-tab {
+    height: 35rem;
+}
 
 
 /* Presse Site */
@@ -31,6 +36,15 @@
   }
 }
 
+.fold-section-hidden {
+  height: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+
 /* images overlay; */
 
 .img-wrapper, .image-block-wrapper {
@@ -42,7 +56,7 @@
   -webkit-backface-visibility: hidden;
 }
 
-.row > .col.span-1:hover, .row > .col.span-2:hover, .row > .col.span-3:hover, .row > .col.span-4:hover, .row > .col.span-5:hover {
+.row > .col.span-1:hover, .row > .col.span-2:hover, .row > .col.span-3:hover, .row > .col.span-4:hover, .row > .col.span-5:hover, .row > .col.span-6:hover {
 
   > .image-block a .image-block-wrapper {
     background: #ee7203;
@@ -65,11 +79,19 @@
 
     
 /* HOME */
+#index-was-wir-tun {
+    a img{
+      opacity: 1 !important;
+    }
+    a .image-block-wrapper {
+      background: transparent !important;
+    }
+}
 
 #index-wir-sind-dabei .summary-excerpt{
-  font-family: "Gentium Basic", serif;
-  color: $orange;
-  font-size: 1.4rem;
+  // font-family: "Gentium Basic", serif;
+  // color: $orange;
+  // font-size: 1.4rem;
 }
 
 // #index-wir-sind-dabei .summary-v2-block {
@@ -180,23 +202,20 @@ body button#sqsp-cookie-banner-accept {
 
 /* no gallery links */
 
-section[id*="nolink"]{
 
-  .summary-item-list-container, .sqs-gallery-container{
-    .summary-title-link, .summary-thumbnail-container, .sqs-gallery-image-container {
+.summary-item.nolink {
+  .summary-title-link, .summary-thumbnail-container, .sqs-gallery-image-container {
       pointer-events: none;
       cursor: default;
     }
-  }
-
-  .summary-item .img-wrapper::before, .BlogList-item-image-link::before{
+  .img-wrapper::before, .BlogList-item-image-link::before{
     display: none;
   }
-
 }
 
 /* Summary Blocks general */
 
 .summary-v2-block{
-  margin-top: -4rem;
+  margin-top: -1rem;
+  padding-top: 0;
 }
