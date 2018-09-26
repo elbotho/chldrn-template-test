@@ -82,15 +82,15 @@
 .BlogList-item-meta time.Blog-meta-item {
 	font-size: 0.7rem;
 	color: #222;
-	opacity: 0;
-	transition: all .2s linear;
+	// opacity: 1;
+	// transition: all .2s linear;
 }
 
-.summary-item:hover time,
-.BlogList-item-meta time.Blog-meta-item,
-.BlogList-item:hover .BlogList-item-meta time.Blog-meta-item {
-	opacity: 1;
-}
+// .summary-item:hover time,
+// .BlogList-item-meta time.Blog-meta-item,
+// .BlogList-item:hover .BlogList-item-meta time.Blog-meta-item {
+// 	opacity: 1;
+// }
 
 .tweak-blog-list-alignment-left .BlogList-item-meta {
     -webkit-box-pack: flex-end;

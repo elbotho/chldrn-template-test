@@ -69,9 +69,17 @@ $sec-nav-font-size: .9rem;
         &:hover {
             opacity: 1 !important;
         }
+
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-font-smoothing: subpixel-antialiased;
+        font-smoothing: subpixel-antialiased;
+
     }
 }
 
+.Header-nav--primary .Header-nav-item:last-child {
+    font-size: 1rem !important;
+}
 
 /* secondary nav icons */
 .Header-nav--secondary .Header-nav-item::before,
