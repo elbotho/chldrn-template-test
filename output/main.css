@@ -142,12 +142,12 @@ h1, h2 strong, h3 strong {
 /* line 129, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
 h1 strong::after, h2 strong::after, h3 strong::after,
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after {
-  content: ' ';
+  content: '____';
   display: block;
-  margin: 0.5em auto 1em auto;
-  width: 4em;
-  height: .25em;
-  background-color: #ee7203;
+  font-size: 2em;
+  line-height: 0;
+  margin-top: -.5rem;
+  margin-bottom: .9em;
 }
 
 /* line 140, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
@@ -156,24 +156,6 @@ h1 strong::after, h2 strong::after, h3 strong::after,
 .Index-page--has-image h1 strong::after, .Index-page--has-image h2 strong::after, .Index-page--has-image h3 strong::after,
 section.Index-page[id*="orange"] h1 strong::after, section.Index-page[id*="orange"] h2 strong::after, section.Index-page[id*="orange"] h3 strong::after {
   background-color: #fff;
-}
-
-/* line 149, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
-h1.text-align-center strong::after, h2.text-align-center strong::after, h3.text-align-center strong::after {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 153, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
-h1.text-align-left strong::after, h2.text-align-left strong::after, h3.text-align-left strong::after {
-  margin-left: 0;
-  margin-right: auto;
-}
-
-/* line 157, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
-h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-align-right strong::after {
-  margin-left: auto;
-  margin-right: 0;
 }
 
 /* line 164, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_typo.scss */
@@ -387,7 +369,8 @@ a.sqs-block-button-element,
 input.button.sqs-system-button,
 .sqs-editable-button-font,
 .sqs-system-button,
-#sqsp-cookie-banner-accept {
+div.sqs-cookie-banner-v2.DARK.BUTTON button.sqs-cookie-banner-v2-accept,
+.sqs-editable-button {
   font-family: 'Overpass', sans-serif !important;
   padding: .52em .8em .4em .8em !important;
   line-height: 1 !important;
@@ -399,7 +382,7 @@ input.button.sqs-system-button,
   letter-spacing: .02rem;
 }
 
-/* line 39, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_buttons.scss */
+/* line 40, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_buttons.scss */
 .sqs-editable-button-color,
 section.Index-page[id*="orange"] .sqs-block-button-element,
 .Mobile-overlay-folder a.Mobile-overlay-folder-item,
@@ -656,6 +639,26 @@ footer.Footer::before {
   color: #fff;
   font-family: Overpass, sans-serif;
   font-style: normal;
+}
+
+/* line 63, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.sqs-search-page-more {
+  margin-top: 3rem;
+}
+
+/* line 67, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.sqs-search-page-more span {
+  text-indent: -9999px;
+  line-height: 0;
+  display: block;
+}
+
+/* line 72, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_searchbar.scss */
+.sqs-search-page-more span::after {
+  content: "Mehr laden";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
 }
 
 /* line 9, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_header.scss */
@@ -1338,36 +1341,41 @@ section[id^="mehr"] .sqs-block-image .image-block-outer-wrapper.layout-caption-b
 
 /* cookie banner */
 /* line 192, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
-body div.cookie-notice {
+body div.sqs-cookie-banner-v2.DARK {
   top: auto !important;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(20, 20, 20, 0.8);
   justify-content: center;
-  font-size: .8rem;
 }
 
-/* line 200, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
-body button#sqsp-cookie-banner-accept {
+/* line 197, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+body div.sqs-cookie-banner-v2.DARK p {
+  font-family: 'Overpass', sans-serif;
+  font-size: .9rem;
+}
+
+/* line 203, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+body div.sqs-cookie-banner-v2.DARK.BUTTON button.sqs-cookie-banner-v2-accept {
   background-color: #fff;
   color: #ee7203;
-  font-size: 1rem;
+  font-size: .9rem;
   border: 0;
 }
 
 /* no gallery links */
-/* line 212, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+/* line 215, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
 .summary-item.nolink .summary-title-link, .summary-item.nolink .summary-thumbnail-container, .summary-item.nolink .sqs-gallery-image-container {
   pointer-events: none;
   cursor: default;
 }
 
-/* line 216, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+/* line 219, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
 .summary-item.nolink .img-wrapper::before, .summary-item.nolink .BlogList-item-image-link::before {
   display: none;
 }
 
 /* Summary Blocks general */
-/* line 223, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
+/* line 226, /Volumes/data/botho/Projekte/16_children_SRS/Children Web/Coding/github/chldrn-template-test/input/partials/_customcontent.scss */
 .summary-v2-block {
   margin-top: -1rem;
   padding-top: 0;

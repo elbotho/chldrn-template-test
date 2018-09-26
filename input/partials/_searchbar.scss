@@ -58,3 +58,22 @@
     font-family: Overpass, sans-serif;
     font-style: normal;
 }
+
+
+.sqs-search-page-more {
+
+    margin-top: 3rem;
+
+    span {
+        text-indent: -9999px;
+        line-height: 0;
+        display: block;
+
+        &::after {
+            content: "Mehr laden";
+            text-indent: 0;
+            display: block;
+            line-height: initial;
+        }
+    }
+}

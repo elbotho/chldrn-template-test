@@ -189,18 +189,21 @@ section[id^="mehr"] .sqs-block-image .image-block-outer-wrapper.layout-caption-b
 }
 
 /* cookie banner */
-body div.cookie-notice {
+body div.sqs-cookie-banner-v2.DARK {
   top: auto !important;
   bottom: 0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(20,20,20,.8);
   justify-content: center;
-  font-size: .8rem;
+  p {
+    font-family: 'Overpass', sans-serif;
+    font-size: .9rem;
+  }
 }
 
-body button#sqsp-cookie-banner-accept {
+body div.sqs-cookie-banner-v2.DARK.BUTTON button.sqs-cookie-banner-v2-accept {
   background-color: #fff;
   color: $orange;
-  font-size: 1rem;
+  font-size: .9rem;
   border: 0;
 }
 

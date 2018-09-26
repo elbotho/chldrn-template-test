@@ -129,12 +129,12 @@ h1, h2 strong, h3 strong{
 h1 strong::after, h2 strong::after, h3 strong::after,
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after
 {
-	content: ' ';
-	display: block;
-	margin: 0.5em auto 1em auto;
-	width: 4em;
-	height: .25em;
-	background-color: #ee7203;
+    content: '____';
+    display: block;
+    font-size: 2em;
+    line-height: 0;
+    margin-top: -.5rem;
+    margin-bottom: .9em;
 }
 
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after,
@@ -146,18 +146,18 @@ section.Index-page[id*="orange"] h1 strong::after, section.Index-page[id*="orang
 }
 
 
-h1.text-align-center strong::after, h2.text-align-center strong::after, h3.text-align-center strong::after{
-	margin-left: auto;
-	margin-right: auto;
-}
-h1.text-align-left strong::after, h2.text-align-left strong::after, h3.text-align-left strong::after{
-	margin-left: 0;
-	margin-right: auto;
-}
-h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-align-right strong::after{
-	margin-left: auto;
-	margin-right: 0;
-}
+// h1.text-align-center strong::after, h2.text-align-center strong::after, h3.text-align-center strong::after{
+// 	margin-left: auto;
+// 	margin-right: auto;
+// }
+// h1.text-align-left strong::after, h2.text-align-left strong::after, h3.text-align-left strong::after{
+// 	margin-left: 0;
+// 	margin-right: auto;
+// }
+// h1.text-align-right strong::after, h2.text-align-right strong::after, h3.text-align-right strong::after{
+// 	margin-left: auto;
+// 	margin-right: 0;
+// }
 
 
 // zitat
