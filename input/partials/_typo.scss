@@ -131,7 +131,7 @@ h1 strong::after, h2 strong::after, h3 strong::after,
 {
 	content: ' ';
 	display: block;
-	margin: 0.5em auto 1em 0;
+	margin: 0.5em auto 1em auto;
 	width: 4em;
 	height: .25em;
 	background-color: #ee7203;

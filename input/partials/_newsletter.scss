@@ -9,23 +9,35 @@
 	padding-bottom: 4rem;
 	background: #f69e64 url('https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg') no-repeat 23% 0;
 	background-size: 9rem;
+
+	@media screen and (min-width: 1400px) {
+		background-size: 12rem;
+	}
 }
+
 
 #index-newsletter figure {
 	display: none;
 }
 
 #index-newsletter h1{
-	margin-top: 11rem;
+	// margin-top: 11rem;	
 }
 
-.form-wrapper .field-list .field .field-element {
+.form-wrapper .field-list .field .field-element,
+.form-wrapper .field-list .field select
+ {
 	border: 0;
-	background-color: rgba(255,255,255,0.2);
+	background-color: #f8b284; //rgba(255,255,255,0.2);
 	border-radius: 4px;
 	font-size: 1rem;
 	color: #fff;
 	font-weight: bold;
+}
+
+.form-wrapper .field-list .field select {
+	border: 12px solid #f8b284;
+	border-width: 8px 6px 8px 6px;
 }
 
 .form-wrapper .field-list .field .field-element:focus {

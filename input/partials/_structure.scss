@@ -4,6 +4,7 @@ body {
 }
 
 
+
 /* SPACER */
 
 // #spacer { /*choose other id*/
@@ -63,7 +64,7 @@ section.Index-page[id*="orange"] figure.Index-page-image
  {
 	content: " ";
 	width: 100%;
-	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23ee7203"/></svg>');
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23ee7203"/></svg>');
 	background-size: cover;
 	position: absolute;
 	display: block;
@@ -74,6 +75,7 @@ section.Index-page[id*="orange"] figure.Index-page-image
 	@media screen and (min-width: 1100px) {
 	    height: 4rem;
     	margin-top: -6rem;
+    	background-size: 100% 4rem;
 	}
 }
 
@@ -96,7 +98,7 @@ section.Index-page[id*="orange"] figure.Index-page-image
 .Site .Intro--has-image+.Main--page::before,
 .Index-page.Index-page--has-image:first-child+.Index-page::before
 {
-	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23fff"/></svg>');
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 6.9" preserveAspectRatio="none"><path d="M-4.8 7h105.3V0H92C61.2-.2 25.7 2.8-4.8 7z" fill="%23fff"/></svg>');
 	margin-top: -6.6vw;
 
 	@media screen and (min-width: 1100px) {
