@@ -3,8 +3,17 @@
 /* NEWSLETTER */
 /* =================================================== */
 /* =================================================== */
+ 
 
-#index-newsletter {
+.Footer-blocks--bottom {
+	display: none;
+}
+
+.sqs-edit-mode .Footer-blocks--bottom {
+	display: block;
+}
+
+section.Index-page[id*="newsletter"], #index-newsletter {
 	min-height: auto;
 	padding-bottom: 4rem;
 	background: #f69e64 url('https://static1.squarespace.com/static/5af1b59a96e76f94d4ab5802/t/5b463b43758d46aaa11c0956/1531329347502/childi_newsletter.svg') no-repeat 23% 0;
@@ -14,7 +23,6 @@
 		background-size: 12rem;
 	}
 }
-
 
 #index-newsletter figure {
 	display: none;
@@ -83,3 +91,84 @@
 
 
 
+ /* CleverReach und Mailchimp Formulare */
+
+.cr_form {
+  .cr_body.cr_page{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+  }
+
+  .cr_ipe_item {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .badge {
+    opacity: 0.7 !important;
+    text-align: right !important;
+    padding-right: 2rem;
+    margin-top: 2rem;
+  }
+      
+  .cr_ipe_item label {
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .02rem;
+    line-height: 1.28;
+  }
+}
+
+.form-block .lightbox-handle-wrapper {
+  margin-top: -1.2rem;
+}
+
+.cr_form .cr_ipe_item input, #mc_embed_signup .mc-field-group input, #mc_embed_signup .mc-field-group select {
+    border: 0;
+    background-color: #f8b284;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    box-sizing: border-box;
+    height: 2.5rem;
+
+  }
+
+.cr_form input.cr_ipe_checkbox, #mce-DATEN-0{
+    width: auto;
+    margin-right: .2rem;
+  }
+
+.form-inner-wrapper #mc_embed_signup {
+	background-color: transparent;
+
+	form {
+		padding: 0;
+
+		label, .mc-field-group.input-group strong {
+		    font-family: 'Overpass', sans-serif;
+		    text-transform: uppercase;
+		    letter-spacing: .02rem;
+		    line-height: 1.28;
+		}
+		label[for="mce-DATEN-0"] {
+			text-transform: none;
+		}
+		#mce-DATEN-0 {
+			height: auto;
+			margin-right:.3rem;
+		}
+	}
+
+	#mc-embedded-subscribe {
+		background-color: $orange;
+		color: #fff;
+	}
+}

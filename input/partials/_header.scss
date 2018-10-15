@@ -26,6 +26,7 @@ $sec-nav-font-size: .9rem;
     background-color: $orange;
     position: absolute;
     top: -10rem;
+    left: 0;
     width:100%;
     height: $sec-nav-height;
 }
@@ -109,6 +110,10 @@ $sec-nav-font-size: .9rem;
     content: '\f0f3'; /*dialog?*/
 }
 
+.Header-nav--secondary .Header-nav-item[href$="search/"]::before, .Mobile-overlay-nav-item[href$="search/"]::before {
+    content: '\f002'; /*search?*/
+}
+
 
 /* primary nav */
 
@@ -139,10 +144,6 @@ $sec-nav-font-size: .9rem;
             padding: .6rem;
             padding-bottom: .31rem;
 
-            a.Header-nav-folder-item:first-child {
-                display: none;
-            }
-
             .Header-nav-folder-item{
                 // color: rgba(255,255,255,.6);
             }
@@ -150,6 +151,10 @@ $sec-nav-font-size: .9rem;
     }  
 }
 
+.no-touch .Header-nav--primary .Header-nav-folder a.Header-nav-folder-item:first-child {
+    display: none;
+        
+}
 
 /* > spenden button in buttons */
 
@@ -160,11 +165,12 @@ $sec-nav-font-size: .9rem;
 
 @media screen and (min-width: 740px){
     %animate-all {
-        transition: .3s all ease-in-out;
+        -webkit-transition: .3s height ease-in-out, .3s width ease-in-out;
+        -moz-transition: none;
     }
 
     .Header.Header--top, {
-        @extend %animate-all;
+        // @extend %animate-all;
         .Header-inner--top {
             @extend %animate-all;
         }

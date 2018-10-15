@@ -19,6 +19,14 @@ body, p {
 	letter-spacing: 0;
 }
 
+@media only screen and (max-width: 600px) {
+	p, em {
+	-webkit-hyphens: auto;
+	   -moz-hyphens: auto;
+	        hyphens: auto;
+	}
+}
+
 /* headlines etc.*/
 h1, h2, h3,
 .blockquote em,
@@ -118,7 +126,7 @@ h3, h4, blockquote {
 
 .Index-page.Index-page--has-image h1 em, .Index-page.Index-page--has-image h2 em, .Index-page.Index-page--has-image h3 em,
 section.Index-page[id*="orange"] h1, section.Index-page[id*="orange"] h2, section.Index-page[id*="orange"] h3,
-.Index-page.Index-page--has-image blockquote {
+.Index-page.Index-page--has-image blockquote, section.Index-page[id*="newsletter"] h2 em, section.Index-page[id*="newsletter"] h2, section.Index-page[id*="newsletter"] p, section.Index-page[id*="newsletter"] h1 {
 	color: #fff;
 }
 
@@ -129,18 +137,20 @@ h1, h2 strong, h3 strong{
 h1 strong::after, h2 strong::after, h3 strong::after,
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after
 {
-    content: '____';
+    text-decoration: underline;
+    content: '\00A0\00A0\00A0\00A0\00A0\00A0\00A0';
     display: block;
-    font-size: 2em;
+    font-size: 2.5em;
     line-height: 0;
-    margin-top: -.5rem;
+    margin-top: -0.2em;
     margin-bottom: .9em;
 }
 
 .yui3-widget .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title::after,
 .Intro.Intro--has-image h1 strong::after, .Intro.Intro--has-image h2 strong::after, .Intro.Intro--has-image h3 strong::after,
 .Index-page--has-image h1 strong::after, .Index-page--has-image h2 strong::after, .Index-page--has-image h3 strong::after,
-section.Index-page[id*="orange"] h1 strong::after, section.Index-page[id*="orange"] h2 strong::after, section.Index-page[id*="orange"] h3 strong::after
+section.Index-page[id*="orange"] h1 strong::after, section.Index-page[id*="orange"] h2 strong::after, section.Index-page[id*="orange"] h3 strong::after,
+section.Index-page[id*="newsletter"] h1 strong::after, section.Index-page[id*="newsletter"] h2 strong::after, section.Index-page[id*="newsletter"] h3 strong::after,
 {
 	background-color: #fff;
 }
@@ -215,6 +225,11 @@ h1 strong a, h2 strong a, h3 strong a {
 .Footer-blocks .sqs-block-html p a:hover, .Footer-blocks .sqs-block-markdown p a:hover, .Footer-blocks .sqs-block-image p a:hover, .Footer-blocks .sqs-block-html blockquote a:hover, .Footer-blocks .sqs-block-markdown blockquote a:hover, .Footer-blocks .sqs-block-image blockquote a:hover, .Footer-blocks .sqs-block-html ol a:hover, .Footer-blocks .sqs-block-markdown ol a:hover, .Footer-blocks .sqs-block-image ol a:hover, .Footer-blocks .sqs-block-html ul a:hover, .Footer-blocks .sqs-block-markdown ul a:hover, .Footer-blocks .sqs-block-image ul a:hover {
 	color: #ee7203;
 	border-bottom-color: #ee7203;
+}
+
+section[id*="orange"] .sqs-block-html p a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* SELECTION */ 

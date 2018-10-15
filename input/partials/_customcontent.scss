@@ -228,3 +228,78 @@ body div.sqs-cookie-banner-v2.DARK.BUTTON button.sqs-cookie-banner-v2-accept {
   margin-top: -1rem;
   padding-top: 0;
 }
+
+.sqs-gallery-list .slide-meta {
+  
+  background-color: rgba(238, 114, 3, 0.9);
+  top: auto !important;
+  bottom: 0 !important;
+
+  .description p {
+    color: #fff !important;
+    font-size: .8rem !important;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 1rem !important;
+  }
+}
+
+ @media only screen and (max-width:600px){.summary-item {width:101% !important;}}
+
+
+
+ /* CleverReach Formulare */
+
+.cr_form {
+  .cr_body.cr_page{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+  }
+
+  .cr_ipe_item {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .badge {
+    opacity: 0.7 !important;
+    text-align: right !important;
+    padding-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .cr_ipe_item input {
+    border: 0;
+    background-color: #f8b284;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    box-sizing: border-box;
+
+  }
+
+  input.cr_ipe_checkbox{
+    width: auto;
+    margin-right: .2rem;
+  }
+      
+  .cr_ipe_item label {
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .02rem;
+    line-height: 1.28;
+  }
+}
+
+.form-block .lightbox-handle-wrapper {
+  margin-top: -1.2rem;
+}
